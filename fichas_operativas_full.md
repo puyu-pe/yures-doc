@@ -786,18 +786,20 @@
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Inventario, Recetas y Costeo → Movimientos de inventario
-- **Objetivo:** Registrar ajuste de ingreso/salida con motivo y trazabilidad para auditoría.
+- **Objetivo:** Registrar ajustes de ingreso o salida con motivo para mantener trazabilidad de inventario.
 - **Tipo / Duración:** Flujo operativo (120–180 s)
 - **Precondiciones:**
-- Tener registrado el producto y los almacenes involucrados.
+- Tener el producto registrado en el sistema.
+- Contar con permisos para registrar movimientos de inventario.
 - **Pasos:**
-- Entrar a **Movimientos de inventario** y seleccionar la acción **Ajuste**.
-- Elegir si el ajuste es de **Ingreso** o **Salida** y seleccionar el almacén correspondiente.
-- Indicar el producto, la cantidad y el motivo del ajuste (merma, pérdida, corrección, etc.).
-- Guardar el movimiento y verificar que el stock se actualice correctamente en el almacén.
+- Ingresar a **Inventario, Recetas y Costeo** y abrir **Movimientos de inventario**.
+- Seleccionar la acción **Ajuste** para crear el movimiento.
+- Elegir el tipo de ajuste (**Ingreso** o **Salida**) y el **almacén** correspondiente.
+- Completar **producto**, **cantidad** y **motivo** del ajuste.
+- Guardar el movimiento y validar que el registro figure en el listado de movimientos.
 - **Resultado visible esperado:**
-- El ajuste queda registrado con la trazabilidad completa: fecha, usuario, almacén, producto y motivo.
-- El inventario refleja la nueva cantidad después del ajuste.
+- El ajuste queda registrado con fecha, usuario, almacén, producto y motivo.
+- El stock del producto se actualiza según el tipo de ajuste aplicado.
 - **Siguiente video:** 6.5
 
 ## 6.5 Cómo generar el reporte de movimientos de productos en YURES
