@@ -75,20 +75,20 @@
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Caja, Turnos y Auditoría → Cierres de caja
-- **Objetivo:** Interpretar campos clave (venta teórica, sistema, margen de error, retirar, caja chica, sobra/falta).
-- **Tipo / Duración:** Flujo operativo (120–180 s)
+- **Objetivo:** Generar e imprimir el reporte de cierre de caja para validar el resultado del turno.
+- **Tipo / Duración:** Flujo operativo (120–180 s)
 - **Precondiciones:**
 - Contar con permisos para acceder a los reportes de cierre.
 - Disponer de cierres de caja generados previamente.
 - **Pasos:**
 - Navegar al módulo **Caja, Turnos y Auditoría** y seleccionar la opción **Cierres de caja**.
-- Elegir la terminal y el rango de fechas de la caja a revisar mediante los selectores disponibles.
-- Hacer clic en **Generar reporte** para mostrar el cierre correspondiente.
-- Analizar los campos del reporte: comparar la venta teórica con la registrada en sistema, observar el margen de error y los montos de retirar y caja chica.
-- Revisar la columna de sobra/falta para detectar diferencias y preparar acciones correctivas si es necesario.
+- Completar los filtros del cierre de caja con los datos solicitados en pantalla.
+- Ejecutar la consulta para mostrar el reporte.
+- Revisar el resultado del reporte generado para validar la información del cierre.
+- Hacer clic en **Imprimir reporte** para obtener la salida del reporte.
 - **Resultado visible esperado:**
-- El reporte de cierres se muestra con los campos completos según la terminal y fechas seleccionadas.
-- El usuario identifica si existe sobrante o faltante en el cierre de caja.
+- El reporte de cierre de caja se muestra según los filtros aplicados.
+- El usuario imprime el reporte para control operativo.
 - **Siguiente video:** 1.2
 
 ## 1.2 Cómo diagnosticar cuando no cuadra caja en YURES
