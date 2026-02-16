@@ -8,5 +8,15 @@
       "url": "https://suite.puyu.pe/index.php/apps/files_sharing/publicpreview/TtJznyRn9GmaS6e?file=/&fileId=109400&x=2560&y=1440&a=true&etag=698e03faf247d",
       "dest": "docs/assets/img/fichas/paquete-6/6.1-02.png"
     }
+  ],
+  "6.4": [
+    {
+      "url": "https://suite.puyu.pe/index.php/apps/files_sharing/publicpreview/KDGHrReT4JdTeoM?file=/&fileId=110281&x=2560&y=1440&a=true&etag=699334bca7a42",
+      "dest": "docs/assets/img/fichas/paquete-6/6.4-01.png"
+    },
+    {
+      "url": "https://suite.puyu.pe/index.php/apps/files_sharing/publicpreview/ry9e6fcA4RqWrLL?file=/&fileId=110250&x=2560&y=1440&a=true&etag=699333434c952",
+      "dest": "docs/assets/img/fichas/paquete-6/6.4-02.png"
+    }
   ]
 }
