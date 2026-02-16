@@ -32,9 +32,11 @@ jobs:
           # Iterate keys (ficha codes)
           for code in $(jq -r 'keys[]' "$MANIFEST"); do
             count=$(jq -r --arg code "$code" '.[$code] | length' "$MANIFEST")
-            if [ "$count" -gt 2 ]; then
-              echo "ERROR: $code has $count assets (max 2)."
-              exit 1
+
+            # Allow N assets (no limit)
+            if [ "$count" -eq 0 ]; then
+              echo "WARN: $code has 0 assets, skipping."
+              continue
             fi
 
             for i in $(seq 0 $((count-1))); do
