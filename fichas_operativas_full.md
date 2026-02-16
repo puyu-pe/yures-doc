@@ -729,19 +729,20 @@
 ## 6.1 Cómo gestionar almacenes en YURES
 
 - **Sistema:** YURES
-- **Módulo / Ruta:** Inventario, Recetas y Costeo → Gestión de almacenes
-- **Objetivo:** Crear, editar y desactivar almacenes con buenas prácticas (principal, cocina, bar).
-- **Tipo / Duración:** CRUD simple (60–120 s)
+- **Módulo / Ruta:** Inventario, Recetas y Costeo → Inventario → Gestión de almacenes
+- **Objetivo:** Registrar, editar y eliminar almacenes desde la tabla de gestión.
+- **Tipo / Duración:** CRUD simple (60–120 s)
 - **Precondiciones:**
-- Tener claridad sobre los diferentes almacenes que se utilizarán (principal, cocina, bar, etc.).
+- Tener acceso al módulo de inventario.
 - **Pasos:**
-- Ingresar a **Gestión de almacenes** dentro de **Inventario, Recetas y Costeo**.
-- Para crear un almacén, hacer clic en **Nuevo almacén**; completar el nombre, tipo y ubicación, luego guardar.
-- Para editar, seleccionar el almacén en la lista y modificar los datos necesarios, confirmando la actualización.
-- Para desactivar, usar la opción correspondiente y aceptar la confirmación para que no aparezca en futuras operaciones.
+- Ingresar a **Inventario, Recetas y Costeo → Inventario → Gestión de almacenes**.
+- Hacer clic en **+ Registrar**, escribir la **Descripción**, seleccionar un **Tipo** y hacer clic en **Guardar**.
+- Para editar un almacén, hacer clic en el ícono de **lápiz**, actualizar **Descripción** o **Tipo** y hacer clic en **Guardar**.
+- Para eliminar un almacén, hacer clic en el ícono de **papelera** y confirmar en el mensaje **¿Realmente desea eliminar este almacén?** con **Aceptar**.
+- Verificar en la tabla que el almacén se haya creado, actualizado o eliminado.
 - **Resultado visible esperado:**
-- Los almacenes quedan registrados o actualizados según las modificaciones realizadas.
-- La lista muestra solo los almacenes activos disponibles para operaciones.
+- La tabla de **Gestión de almacenes** refleja los cambios realizados.
+- Los almacenes quedan disponibles según su registro y tipo seleccionado.
 - **Siguiente video:** 6.2
 
 ## 6.2 Cómo consultar stock por almacén en YURES
