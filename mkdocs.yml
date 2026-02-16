@@ -2,6 +2,7 @@ site_name: YURES · Documentación Operativa
 site_description: Fichas operativas organizadas por paquetes
 theme:
   name: material
+  language: es
 plugins:
   - search
   - glightbox
@@ -9,6 +10,11 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+extra:
+  alternate:
+    - name: Español
+      link: /
+      lang: es
 nav:
   - Inicio: index.md
   - Paquete 0 · Onboarding:
