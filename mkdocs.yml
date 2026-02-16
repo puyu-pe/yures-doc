@@ -2,6 +2,10 @@ site_name: YURES · Documentación Operativa
 site_description: Fichas operativas organizadas por paquetes
 theme:
   name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 nav:
   - Inicio: index.md
   - Paquete 0 · Onboarding:
