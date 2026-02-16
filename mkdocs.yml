@@ -21,18 +21,18 @@ nav:
       - "1.9 Cómo canjear un ticket a boleta o factura en YURES": fichas/paquete-1/1.9-canjear-un-ticket-a-boleta-o-factura.md
       - "1.10 Cómo emitir una nota de crédito en YURES": fichas/paquete-1/1.10-emitir-una-nota-de-credito.md
       - "1.11 Cómo usar el historial de ventas y exportar reportes en YURES": fichas/paquete-1/1.11-usar-el-historial-de-ventas-y-exportar-reportes.md
-  - Paquete 2 · Paquete 2:
+  - Paquete 2 · Reportes gerenciales:
       - "2.1 Cómo leer el resumen gerencial de YURES": fichas/paquete-2/2.1-leer-el-resumen-gerencial-de-yures.md
       - "2.2 Cómo interpretar la analítica de ventas por año y mes en YURES": fichas/paquete-2/2.2-interpretar-la-analitica-de-ventas-por-ano-y-mes.md
       - "2.3 Cómo analizar ventas por categoría o producto en YURES": fichas/paquete-2/2.3-analizar-ventas-por-categoria-o-producto.md
       - "2.4 Cómo revisar análisis por canal o tipo de venta en YURES": fichas/paquete-2/2.4-revisar-analisis-por-canal-o-tipo-de-venta.md
       - "2.5 Cómo revisar análisis por área de atención en YURES": fichas/paquete-2/2.5-revisar-analisis-por-area-de-atencion.md
-  - Paquete 3 · Paquete 3:
+  - Paquete 3 · Auditoría operativa:
       - "3.1 Cómo usar la trazabilidad de operación en YURES": fichas/paquete-3/3.1-usar-la-trazabilidad-de-operacion.md
       - "3.2 Cómo usar comandas y kitchen tracking en YURES": fichas/paquete-3/3.2-usar-comandas-y-kitchen-tracking.md
       - "3.3 Cómo investigar anulaciones y canjes cruzando operación y ventas en YURES": fichas/paquete-3/3.3-investigar-anulaciones-y-canjes-cruzando-operacion-y-ventas.md
       - "3.4 Checklist gerencial de buenas prácticas para turnos y cierres en YURES": fichas/paquete-3/3.4-checklist-gerencial-de-buenas-practicas-para-turnos-y-cierres.md
-  - Paquete 4 · Paquete 4:
+  - Paquete 4 · Configuración y seguridad:
       - "4.1 Cómo gestionar usuarios en YURES (alta, edición y desactivación)": fichas/paquete-4/4.1-gestionar-usuarios-en-yures-alta-edicion-y-desactivacion.md
       - "4.2 Política de accesos en YURES (acciones críticas y restricción)": fichas/paquete-4/4.2-politica-de-accesos-en-yures-acciones-criticas-y-restriccion.md
       - "4.3 Cómo configurar parámetros generales en YURES": fichas/paquete-4/4.3-configurar-parametros-generales.md
@@ -40,7 +40,7 @@ nav:
       - "4.5 Cómo configurar impresión por documento en YURES": fichas/paquete-4/4.5-configurar-impresion-por-documento.md
       - "4.6 Cómo configurar la estructura operativa (terminales, mesas y pisos) en YURES": fichas/paquete-4/4.6-configurar-la-estructura-operativa-terminales-mesas-y-pisos.md
       - "4.7 Cómo configurar la identidad visual en YURES": fichas/paquete-4/4.7-configurar-la-identidad-visual.md
-  - Paquete 5 · Paquete 5:
+  - Paquete 5 · Catálogo y carta:
       - "5.1 Cómo crear ítems de carta en YURES": fichas/paquete-5/5.1-crear-items-de-carta.md
       - "5.2 Cómo configurar categorías, tipos y unidades en YURES": fichas/paquete-5/5.2-configurar-categorias-tipos-y-unidades.md
       - "5.3 Cómo ordenar y controlar la visibilidad del catálogo en YURES": fichas/paquete-5/5.3-ordenar-y-controlar-la-visibilidad-del-catalogo.md
@@ -50,7 +50,7 @@ nav:
       - "5.7 Cómo usar instrucciones de cocina en YURES": fichas/paquete-5/5.7-usar-instrucciones-de-cocina.md
       - "5.8 Cómo configurar motivos de anulación en YURES": fichas/paquete-5/5.8-configurar-motivos-de-anulacion.md
       - "5.9 Cómo leer el reporte de rotación de platos en YURES": fichas/paquete-5/5.9-leer-el-reporte-de-rotacion-de-platos.md
-  - Paquete 6 · Paquete 6:
+  - Paquete 6 · Inventario y costos:
       - "6.1 Cómo gestionar almacenes en YURES": fichas/paquete-6/6.1-gestionar-almacenes.md
       - "6.2 Cómo consultar stock por almacén en YURES": fichas/paquete-6/6.2-consultar-stock-por-almacen.md
       - "6.3 Cómo registrar el inventario inicial de un producto en YURES": fichas/paquete-6/6.3-registrar-el-inventario-inicial-de-un-producto.md
@@ -61,7 +61,7 @@ nav:
       - "6.8 Cómo registrar recetas y costeo en YURES": fichas/paquete-6/6.8-registrar-recetas-y-costeo.md
       - "6.9 Cómo revisar la rotación de recetas en YURES": fichas/paquete-6/6.9-revisar-la-rotacion-de-recetas.md
       - "6.10 Cómo registrar producción (lotes y mermas) en YURES": fichas/paquete-6/6.10-registrar-produccion-lotes-y-mermas.md
-  - Paquete 7 · Paquete 7:
+  - Paquete 7 · Compras y proveedores:
       - "7.1 Cómo gestionar proveedores en YURES": fichas/paquete-7/7.1-gestionar-proveedores.md
       - "7.2 Cómo registrar una orden de compra en YURES": fichas/paquete-7/7.2-registrar-una-orden-de-compra.md
       - "7.3 Cómo registrar un pedido de compra en YURES": fichas/paquete-7/7.3-registrar-un-pedido-de-compra.md
@@ -78,7 +78,7 @@ nav:
       - "7.14 Cómo usar el listado de compras en YURES": fichas/paquete-7/7.14-usar-el-listado-de-compras.md
       - "7.15 Cómo analizar productos comprados en YURES": fichas/paquete-7/7.15-analizar-productos-comprados.md
       - "7.16 Cómo revisar compras por cuenta contable en YURES": fichas/paquete-7/7.16-revisar-compras-por-cuenta-contable.md
-  - Paquete 8 · Paquete 8:
+  - Paquete 8 · Finanzas y gastos:
       - "8.1 Cómo usar tesorería en YURES": fichas/paquete-8/8.1-usar-tesoreria.md
       - "8.2 Cómo registrar ingresos administrativos en YURES": fichas/paquete-8/8.2-registrar-ingresos-administrativos.md
       - "8.3 Cómo registrar egresos administrativos en YURES": fichas/paquete-8/8.3-registrar-egresos-administrativos.md
@@ -86,6 +86,6 @@ nav:
       - "8.5 Cómo usar el plan de cuentas en YURES": fichas/paquete-8/8.5-usar-el-plan-de-cuentas.md
       - "8.6 Cómo configurar tipos de transacciones en YURES": fichas/paquete-8/8.6-configurar-tipos-de-transacciones.md
       - "8.7 Cómo analizar gastos de administración en YURES": fichas/paquete-8/8.7-analizar-gastos-de-administracion.md
-  - Paquete 9 · Paquete 9:
+  - Paquete 9 · Clientes y fidelización:
       - "9.1 Cómo gestionar clientes en YURES": fichas/paquete-9/9.1-gestionar-clientes.md
       - "9.2 Cómo revisar ranking de clientes por consumo en YURES": fichas/paquete-9/9.2-revisar-ranking-de-clientes-por-consumo.md
