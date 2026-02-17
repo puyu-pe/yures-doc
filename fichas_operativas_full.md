@@ -950,57 +950,22 @@
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Pedidos de compra
-- **Objetivo:** Crear pedido con proveedor, fecha, almacén destino y observaciones.
+- **Objetivo:** Registrar/generar el pedido de compra y completar su detalle de productos.
 - **Tipo / Duración:** Flujo operativo (120–180 s)
 - **Precondiciones:**
 - Disponer de proveedores registrados y el almacén de destino definido.
 - **Pasos:**
 - Acceder a **Pedidos de compra** y seleccionar **Nuevo pedido**.
-- Elegir el proveedor y la fecha en la que se requiere el pedido.
-- Seleccionar el almacén donde se recibirá la mercadería y añadir cualquier observación pertinente.
-- Guardar el pedido para completar el registro inicial.
+- Elegir proveedor, fecha requerida, almacén de destino y observaciones.
+- Guardar el pedido inicial y abrirlo desde la lista en estado **pendiente**.
+- Agregar los productos necesarios, indicando unidad, cantidad y precio estimado por producto.
+- Revisar el resumen o total estimado y guardar/enviar para dejar el pedido generado/en revisión.
 - **Resultado visible esperado:**
-- El pedido se registra con proveedor, fecha, destino y observaciones.
-- Está listo para agregar detalles y ser aprobado o rechazado.
+- El pedido queda registrado con encabezado y detalle completo (productos, cantidades y costos estimados).
+- Queda listo para ser aprobado, rechazado o convertido en orden de compra.
 - **Siguiente video:** 7.4
 
-## 7.4 Cómo generar un pedido de compra en YURES
-
-- **Sistema:** YURES
-- **Módulo / Ruta:** Compras y Proveedores → Pedidos de compra
-- **Objetivo:** Completar y guardar el pedido de compra (flujo completo).
-- **Tipo / Duración:** Flujo operativo (120–180 s)
-- **Precondiciones:**
-- Haber creado el pedido de compra inicial.
-- **Pasos:**
-- Seleccionar el pedido en estado **pendiente** desde la lista de **Pedidos de compra**.
-- Agregar los productos necesarios, especificando cantidad y precio estimado para cada uno.
-- Revisar el resumen del pedido y, si es correcto, hacer clic en **Guardar** o **Enviar**.
-- El sistema actualizará el estado del pedido a **generado** o **en revisión** según el flujo interno.
-- **Resultado visible esperado:**
-- El pedido de compra se completa con su detalle de productos y costos estimados.
-- Queda listo para ser aprobado, rechazado o transformado en orden de compra.
-- **Siguiente video:** 7.5
-
-## 7.5 Cómo registrar el detalle de un pedido de compra en YURES
-
-- **Sistema:** YURES
-- **Módulo / Ruta:** Compras y Proveedores → Pedidos de compra
-- **Objetivo:** Agregar productos, cantidades y costos estimados con validaciones.
-- **Tipo / Duración:** Flujo operativo (120–180 s)
-- **Precondiciones:**
-- Contar con un pedido de compra en estado pendiente o generado.
-- **Pasos:**
-- Abrir el pedido de compra correspondiente desde la lista.
-- Hacer clic en **Agregar producto** e ingresar el nombre del producto, unidad, cantidad y precio estimado.
-- Repetir el paso anterior para cada producto necesario.
-- Revisar el total estimado del pedido y guardar para registrar el detalle.
-- **Resultado visible esperado:**
-- Cada producto del pedido se registra con su cantidad y costo estimado.
-- El pedido queda listo para ser aprobado o convertirlo en orden de compra.
-- **Siguiente video:** 7.6
-
-## 7.6 Cómo aprobar o desaprobar pedidos de compra en YURES
+## 7.4 Cómo aprobar o desaprobar pedidos de compra en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Compras aprobadas
@@ -1016,9 +981,9 @@
 - **Resultado visible esperado:**
 - El pedido cambia su estado a **aprobado** o **desaprobado** con las observaciones correspondientes.
 - Se mantiene la trazabilidad de quién aprobó o rechazó el pedido y en qué momento.
-- **Siguiente video:** 7.7
+- **Siguiente video:** 7.5
 
-## 7.7 Cómo generar reportes de pedidos de compra en YURES
+## 7.5 Cómo generar reportes de pedidos de compra en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Pedidos de compra
@@ -1034,9 +999,9 @@
 - **Resultado visible esperado:**
 - Se obtiene un reporte de pedidos filtrados según los parámetros seleccionados.
 - El área de compras puede controlar el cumplimiento y tiempos de los pedidos.
-- **Siguiente video:** 7.8
+- **Siguiente video:** 7.6
 
-## 7.8 Cómo registrar una orden de compra desde un pedido en YURES
+## 7.6 Cómo registrar una orden de compra desde un pedido en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Órdenes de compra
@@ -1052,9 +1017,9 @@
 - **Resultado visible esperado:**
 - La orden de compra se genera con los datos del pedido seleccionado.
 - Se mantiene la trazabilidad entre pedido y orden para auditoría.
-- **Siguiente video:** 7.9
+- **Siguiente video:** 7.7
 
-## 7.9 Cómo generar una orden de compra en YURES
+## 7.7 Cómo generar una orden de compra en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Órdenes de compra
@@ -1070,9 +1035,9 @@
 - **Resultado visible esperado:**
 - La orden de compra queda emitida con un número oficial y estado correspondiente.
 - Está lista para ser enviada al proveedor y registrada como compromiso de compra.
-- **Siguiente video:** 7.10
+- **Siguiente video:** 7.8
 
-## 7.10 Cómo registrar el detalle de una orden de compra en YURES
+## 7.8 Cómo registrar el detalle de una orden de compra en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Órdenes de compra
@@ -1088,9 +1053,9 @@
 - **Resultado visible esperado:**
 - La orden contiene todos los productos y cantidades definitivas.
 - El área de almacén puede utilizar la orden para realizar la recepción y registro de stock.
-- **Siguiente video:** 7.11
+- **Siguiente video:** 7.9
 
-## 7.11 Cómo generar reportes de órdenes de compra en YURES
+## 7.9 Cómo generar reportes de órdenes de compra en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Órdenes de compra
@@ -1106,9 +1071,9 @@
 - **Resultado visible esperado:**
 - Se obtiene un listado de órdenes de compra que coinciden con los filtros aplicados.
 - El reporte se puede imprimir o exportar para uso interno o contable.
-- **Siguiente video:** 7.12
+- **Siguiente video:** 7.10
 
-## 7.12 Cómo verificar la relación pedido ↔ orden de compra en YURES
+## 7.10 Cómo verificar la relación pedido ↔ orden de compra en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Órdenes de compra
@@ -1124,9 +1089,9 @@
 - **Resultado visible esperado:**
 - La relación entre pedido y orden se muestra claramente en los documentos.
 - Se asegura la trazabilidad entre las solicitudes de compra y las órdenes emitidas.
-- **Siguiente video:** 7.13
+- **Siguiente video:** 7.11
 
-## 7.13 Cómo registrar compras aprobadas en YURES
+## 7.11 Cómo registrar compras aprobadas en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Compras aprobadas
@@ -1142,9 +1107,9 @@
 - **Resultado visible esperado:**
 - La compra se registra con todos sus detalles y el stock del inventario aumenta según lo recibido.
 - El flujo de compras se cierra con trazabilidad completa desde el pedido hasta la recepción.
-- **Siguiente video:** 7.14
+- **Siguiente video:** 7.12
 
-## 7.14 Cómo usar el listado de compras en YURES
+## 7.12 Cómo usar el listado de compras en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Listado de compras
@@ -1160,9 +1125,9 @@
 - **Resultado visible esperado:**
 - Se presenta el historial de compras según los filtros seleccionados.
 - El usuario puede realizar análisis y revisiones de compras efectuadas.
-- **Siguiente video:** 7.15
+- **Siguiente video:** 7.13
 
-## 7.15 Cómo analizar productos comprados en YURES
+## 7.13 Cómo analizar productos comprados en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Productos comprados
@@ -1178,9 +1143,9 @@
 - **Resultado visible esperado:**
 - Se obtiene un reporte de productos comprados con sus cantidades y montos por periodo.
 - El área de compras puede tomar decisiones para optimizar el abastecimiento.
-- **Siguiente video:** 7.16
+- **Siguiente video:** 7.14
 
-## 7.16 Cómo revisar compras por cuenta contable en YURES
+## 7.14 Cómo revisar compras por cuenta contable en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Compras por cuenta contable
