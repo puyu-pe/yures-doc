@@ -950,54 +950,47 @@
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Pedidos de compra
-- **Objetivo:** Crear pedido con proveedor, fecha, almacén destino y observaciones.
+- **Objetivo:** Registrar/generar el pedido de compra y completar su detalle de productos.
 - **Tipo / Duración:** Flujo operativo (120–180 s)
 - **Precondiciones:**
 - Disponer de proveedores registrados y el almacén de destino definido.
 - **Pasos:**
 - Acceder a **Pedidos de compra** y seleccionar **Nuevo pedido**.
-- Elegir el proveedor y la fecha en la que se requiere el pedido.
-- Seleccionar el almacén donde se recibirá la mercadería y añadir cualquier observación pertinente.
-- Guardar el pedido para completar el registro inicial.
+- Elegir proveedor, fecha requerida, almacén de destino y observaciones.
+- Guardar el pedido inicial y abrirlo desde la lista en estado **pendiente**.
+- Agregar los productos necesarios, indicando unidad, cantidad y precio estimado por producto.
+- Revisar el resumen o total estimado y guardar/enviar para dejar el pedido generado/en revisión.
 - **Resultado visible esperado:**
-- El pedido se registra con proveedor, fecha, destino y observaciones.
-- Está listo para agregar detalles y ser aprobado o rechazado.
+- El pedido queda registrado con encabezado y detalle completo (productos, cantidades y costos estimados).
+- Queda listo para ser aprobado, rechazado o convertido en orden de compra.
 - **Siguiente video:** 7.4
 
 ## 7.4 Cómo generar un pedido de compra en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Pedidos de compra
-- **Objetivo:** Completar y guardar el pedido de compra (flujo completo).
+- **Objetivo:** Mismo flujo operativo que 7.3 (pedido de compra unificado).
 - **Tipo / Duración:** Flujo operativo (120–180 s)
 - **Precondiciones:**
-- Haber creado el pedido de compra inicial.
+- Aplican las mismas precondiciones de 7.3.
 - **Pasos:**
-- Seleccionar el pedido en estado **pendiente** desde la lista de **Pedidos de compra**.
-- Agregar los productos necesarios, especificando cantidad y precio estimado para cada uno.
-- Revisar el resumen del pedido y, si es correcto, hacer clic en **Guardar** o **Enviar**.
-- El sistema actualizará el estado del pedido a **generado** o **en revisión** según el flujo interno.
+- Ejecutar los mismos pasos de 7.3 para registrar, generar y completar el detalle del pedido de compra.
 - **Resultado visible esperado:**
-- El pedido de compra se completa con su detalle de productos y costos estimados.
-- Queda listo para ser aprobado, rechazado o transformado en orden de compra.
+- Mismo resultado esperado de 7.3.
 - **Siguiente video:** 7.5
 
 ## 7.5 Cómo registrar el detalle de un pedido de compra en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** Compras y Proveedores → Pedidos de compra
-- **Objetivo:** Agregar productos, cantidades y costos estimados con validaciones.
+- **Objetivo:** Mismo flujo operativo que 7.3 (pedido de compra unificado).
 - **Tipo / Duración:** Flujo operativo (120–180 s)
 - **Precondiciones:**
-- Contar con un pedido de compra en estado pendiente o generado.
+- Aplican las mismas precondiciones de 7.3.
 - **Pasos:**
-- Abrir el pedido de compra correspondiente desde la lista.
-- Hacer clic en **Agregar producto** e ingresar el nombre del producto, unidad, cantidad y precio estimado.
-- Repetir el paso anterior para cada producto necesario.
-- Revisar el total estimado del pedido y guardar para registrar el detalle.
+- Ejecutar los mismos pasos de 7.3 para registrar, generar y completar el detalle del pedido de compra.
 - **Resultado visible esperado:**
-- Cada producto del pedido se registra con su cantidad y costo estimado.
-- El pedido queda listo para ser aprobado o convertirlo en orden de compra.
+- Mismo resultado esperado de 7.3.
 - **Siguiente video:** 7.6
 
 ## 7.6 Cómo aprobar o desaprobar pedidos de compra en YURES
