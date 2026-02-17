@@ -82,10 +82,10 @@
 - Disponer de cierres de caja generados previamente.
 - **Pasos:**
 - Navegar al módulo **Caja, Turnos y Auditoría** y seleccionar la opción **Cierres de caja**.
-- Completar los filtros del cierre de caja con los datos solicitados en pantalla.
-- Ejecutar la consulta para mostrar el reporte.
-- Revisar el resultado del reporte generado para validar la información del cierre.
-- Hacer clic en **Imprimir reporte** para obtener la salida del reporte.
+- Seleccionar la **caja** y definir el rango de fechas del cierre a consultar.
+- Aplicar los filtros para generar el reporte del periodo.
+- Verificar los totales por medios de pago y el total general del cierre mostrado.
+- Hacer clic en **Imprimir reporte** para emitir el reporte validado.
 - **Resultado visible esperado:**
 - El reporte de cierre de caja se muestra según los filtros aplicados.
 - El usuario imprime el reporte para control operativo.
