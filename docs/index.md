@@ -1,30 +1,17 @@
-# YURES · Documentación Operativa
+# YURES · Documentación por paneles
 
-Bienvenido/a. Esta documentación está pensada como una biblioteca de **guías operativas por tareas** para usar YURES en el día a día.
+Esta documentación se reorganiza en dos espacios para evitar confusiones entre perfiles de uso:
 
-## Cómo usar esta documentación
+- **Panel administrativo**: control, configuración y análisis de la operación.
+- **Panel operativo**: ejecución diaria del punto de venta (sección preparada para próximas fichas).
 
-- Usa **Search** para encontrar rápido una tarea específica.
-- Navega por **paquetes/módulos** desde el menú lateral.
-- Cada ficha describe un **procedimiento concreto**, paso a paso.
+## Cómo navegar
 
-## Qué cubre YURES en la operación diaria
+1. Ingresa a **Panel administrativo** para consultar las fichas ya disponibles.
+2. Inicia por **Paquete 0 · Antes de iniciar**, especialmente la ficha **0.0**.
+3. Usa el buscador para ubicar tareas puntuales por nombre o número de ficha.
 
-- Pedidos (salón y para llevar).
-- Cocina y entregas (KDS/delivery).
-- Facturación electrónica y cobros.
-- Caja, turnos y control operativo.
-- Inventario y stock.
-- Reportes en tiempo real.
+## Accesos
 
-## Beneficios operativos
-
-- **Todo en un solo lugar:** operación, control y consulta centralizados.
-- **Implementación rápida:** puesta en marcha práctica para el equipo.
-- **Uso intuitivo:** flujos simples para aprender y ejecutar.
-- **Soporte local:** acompañamiento por canales directos como WhatsApp y teléfono.
-
-## Enlaces oficiales
-
-- Sitio YURES: <https://yures.puyu.pe/>
-- Página informativa PUYU.PE: <https://puyu.pe/yures-software-restaurantes-peru/>
+- Panel administrativo: <https://yures.puyu.pe/admin/>
+- Panel operativo: <https://yures.puyu.pe/admin/>
