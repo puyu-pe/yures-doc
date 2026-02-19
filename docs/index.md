@@ -14,4 +14,4 @@ Esta documentación se reorganiza en dos espacios para evitar confusiones entre 
 ## Accesos
 
 - Panel administrativo: <https://yures.puyu.pe/admin/>
-- Panel operativo: <https://yures.puyu.pe/admin/>
+- Panel operativo: <https://yures.puyu.pe/pos/>
