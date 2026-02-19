@@ -29,28 +29,33 @@ jobs:
             exit 1
           fi
 
-          # Iterate keys (ficha codes)
-          for code in $(jq -r 'keys[]' "$MANIFEST"); do
-            count=$(jq -r --arg code "$code" '.[$code] | length' "$MANIFEST")
+          # Expected schema:
+          # {
+          #   "panel-administrativo": { "1.1": [{"url":"...", "dest":"..."}] },
+          #   "panel-operativo": { "0.0": [{"url":"...", "dest":"..."}] }
+          # }
+          for panel in $(jq -r 'keys[]' "$MANIFEST"); do
+            for code in $(jq -r --arg panel "$panel" '.[$panel] | keys[]' "$MANIFEST"); do
+              count=$(jq -r --arg panel "$panel" --arg code "$code" '.[$panel][$code] | length' "$MANIFEST")
 
-            # Allow N assets (no limit)
-            if [ "$count" -eq 0 ]; then
-              echo "WARN: $code has 0 assets, skipping."
-              continue
-            fi
-
-            for i in $(seq 0 $((count-1))); do
-              url=$(jq -r --arg code "$code" --argjson i "$i" '.[$code][$i].url' "$MANIFEST")
-              dest=$(jq -r --arg code "$code" --argjson i "$i" '.[$code][$i].dest' "$MANIFEST")
-
-              if [ -z "$url" ] || [ -z "$dest" ] || [ "$url" = "null" ] || [ "$dest" = "null" ]; then
-                echo "ERROR: invalid entry for $code[$i]"
-                exit 1
+              if [ "$count" -eq 0 ]; then
+                echo "WARN: $panel/$code has 0 assets, skipping."
+                continue
               fi
 
-              mkdir -p "$(dirname "$dest")"
-              echo "Downloading $url -> $dest"
-              curl -L --fail --retry 3 --retry-delay 2 "$url" -o "$dest"
+              for i in $(seq 0 $((count-1))); do
+                url=$(jq -r --arg panel "$panel" --arg code "$code" --argjson i "$i" '.[$panel][$code][$i].url' "$MANIFEST")
+                dest=$(jq -r --arg panel "$panel" --arg code "$code" --argjson i "$i" '.[$panel][$code][$i].dest' "$MANIFEST")
+
+                if [ -z "$url" ] || [ -z "$dest" ] || [ "$url" = "null" ] || [ "$dest" = "null" ]; then
+                  echo "ERROR: invalid entry for $panel/$code[$i]"
+                  exit 1
+                fi
+
+                mkdir -p "$(dirname "$dest")"
+                echo "Downloading $panel/$code[$i]: $url -> $dest"
+                curl -L --fail --retry 3 --retry-delay 2 "$url" -o "$dest"
+              done
             done
           done
 

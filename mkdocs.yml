@@ -106,3 +106,5 @@ nav:
           - "9.2 Cómo revisar ranking de clientes por consumo en YURES": panel-administrativo/fichas/paquete-9/9.2-revisar-ranking-de-clientes-por-consumo.md
   - Panel operativo:
       - Inicio: panel-operativo/index.md
+      - Paquete 0 · Antes de iniciar:
+          - "0.0 Cómo ingresar al panel operativo desde el escritorio": panel-operativo/fichas/paquete-0/0.0-ingresar-al-panel-operativo.md

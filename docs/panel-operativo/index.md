@@ -10,8 +10,8 @@ El **Panel operativo** está orientado a la ejecución diaria del punto de venta
 
 ## URL de acceso
 
-- <https://yures.puyu.pe/admin/>
+- <https://yures.puyu.pe/pos/>
 
 ## Estado actual
 
-Esta sección queda preparada para incorporar próximas fichas del panel operativo.
+Esta sección ya incluye la ficha inicial de acceso **0.0** y queda preparada para incorporar próximas fichas del panel operativo.
