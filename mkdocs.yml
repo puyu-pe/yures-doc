@@ -25,84 +25,84 @@ nav:
   - Panel administrativo:
       - Inicio: panel-administrativo/index.md
       - Paquete 0 · Antes de iniciar:
-          - "0.0 Cómo ingresar al login del panel administrativo desde el escritorio": fichas/paquete-0/0.0-ingresar-al-login-del-panel-administrativo-desde-el-escritorio.md
-          - "0.1 Cómo iniciar sesión en YURES": fichas/paquete-0/0.1-iniciar-sesion.md
-          - "0.2 Cómo ubicarse en el panel administrativo en YURES": fichas/paquete-0/0.2-ubicarse-en-el-panel-administrativo.md
-          - "0.3 Cómo interpretar comunicados, novedades y alertas al ingresar a YURES": fichas/paquete-0/0.3-interpretar-comunicados-novedades-y-alertas-al-ingresar-a-yures.md
-          - "0.4 Cómo cerrar sesión correctamente en YURES": fichas/paquete-0/0.4-cerrar-sesion-correctamente.md
+          - "0.0 Cómo ingresar al login del panel administrativo desde el escritorio": panel-administrativo/fichas/paquete-0/0.0-ingresar-al-login-del-panel-administrativo-desde-el-escritorio.md
+          - "0.1 Cómo iniciar sesión en YURES": panel-administrativo/fichas/paquete-0/0.1-iniciar-sesion.md
+          - "0.2 Cómo ubicarse en el panel administrativo en YURES": panel-administrativo/fichas/paquete-0/0.2-ubicarse-en-el-panel-administrativo.md
+          - "0.3 Cómo interpretar comunicados, novedades y alertas al ingresar a YURES": panel-administrativo/fichas/paquete-0/0.3-interpretar-comunicados-novedades-y-alertas-al-ingresar-a-yures.md
+          - "0.4 Cómo cerrar sesión correctamente en YURES": panel-administrativo/fichas/paquete-0/0.4-cerrar-sesion-correctamente.md
       - Paquete 1 · Caja:
-          - "1.1 Cómo leer el reporte de cierre de caja en YURES": fichas/paquete-1/1.1-leer-el-reporte-de-cierre-de-caja.md
-          - "1.2 Cómo diagnosticar cuando no cuadra caja en YURES": fichas/paquete-1/1.2-diagnosticar-cuando-no-cuadra-caja.md
-          - "1.3 Cómo conciliar el reporte de medios de pago por caja y fechas en YURES": fichas/paquete-1/1.3-conciliar-el-reporte-de-medios-de-pago-por-caja-y-fechas.md
-          - "1.4 Cómo revisar turnos de auditoría en YURES": fichas/paquete-1/1.4-revisar-turnos-de-auditoria.md
-          - "1.5 Cómo buscar comprobantes por fecha y filtros en YURES": fichas/paquete-1/1.5-buscar-comprobantes-por-fecha-y-filtros.md
-          - "1.6 Cómo buscar un comprobante por número en YURES": fichas/paquete-1/1.6-buscar-un-comprobante-por-numero.md
-          - "1.7 Cómo validar un comprobante antes de corregirlo en YURES": fichas/paquete-1/1.7-validar-un-comprobante-antes-de-corregirlo.md
-          - "1.8 Cómo anular una venta en YURES con justificación": fichas/paquete-1/1.8-anular-una-venta-en-yures-con-justificacion.md
-          - "1.9 Cómo canjear un ticket a boleta o factura en YURES": fichas/paquete-1/1.9-canjear-un-ticket-a-boleta-o-factura.md
-          - "1.10 Cómo emitir una nota de crédito en YURES": fichas/paquete-1/1.10-emitir-una-nota-de-credito.md
-          - "1.11 Cómo usar el historial de ventas y exportar reportes en YURES": fichas/paquete-1/1.11-usar-el-historial-de-ventas-y-exportar-reportes.md
+          - "1.1 Cómo leer el reporte de cierre de caja en YURES": panel-administrativo/fichas/paquete-1/1.1-leer-el-reporte-de-cierre-de-caja.md
+          - "1.2 Cómo diagnosticar cuando no cuadra caja en YURES": panel-administrativo/fichas/paquete-1/1.2-diagnosticar-cuando-no-cuadra-caja.md
+          - "1.3 Cómo conciliar el reporte de medios de pago por caja y fechas en YURES": panel-administrativo/fichas/paquete-1/1.3-conciliar-el-reporte-de-medios-de-pago-por-caja-y-fechas.md
+          - "1.4 Cómo revisar turnos de auditoría en YURES": panel-administrativo/fichas/paquete-1/1.4-revisar-turnos-de-auditoria.md
+          - "1.5 Cómo buscar comprobantes por fecha y filtros en YURES": panel-administrativo/fichas/paquete-1/1.5-buscar-comprobantes-por-fecha-y-filtros.md
+          - "1.6 Cómo buscar un comprobante por número en YURES": panel-administrativo/fichas/paquete-1/1.6-buscar-un-comprobante-por-numero.md
+          - "1.7 Cómo validar un comprobante antes de corregirlo en YURES": panel-administrativo/fichas/paquete-1/1.7-validar-un-comprobante-antes-de-corregirlo.md
+          - "1.8 Cómo anular una venta en YURES con justificación": panel-administrativo/fichas/paquete-1/1.8-anular-una-venta-en-yures-con-justificacion.md
+          - "1.9 Cómo canjear un ticket a boleta o factura en YURES": panel-administrativo/fichas/paquete-1/1.9-canjear-un-ticket-a-boleta-o-factura.md
+          - "1.10 Cómo emitir una nota de crédito en YURES": panel-administrativo/fichas/paquete-1/1.10-emitir-una-nota-de-credito.md
+          - "1.11 Cómo usar el historial de ventas y exportar reportes en YURES": panel-administrativo/fichas/paquete-1/1.11-usar-el-historial-de-ventas-y-exportar-reportes.md
       - Paquete 2 · Reportes gerenciales:
-          - "2.1 Cómo leer el resumen gerencial de YURES": fichas/paquete-2/2.1-leer-el-resumen-gerencial-de-yures.md
-          - "2.2 Cómo interpretar la analítica de ventas por año y mes en YURES": fichas/paquete-2/2.2-interpretar-la-analitica-de-ventas-por-ano-y-mes.md
-          - "2.3 Cómo analizar ventas por categoría o producto en YURES": fichas/paquete-2/2.3-analizar-ventas-por-categoria-o-producto.md
-          - "2.4 Cómo revisar análisis por canal o tipo de venta en YURES": fichas/paquete-2/2.4-revisar-analisis-por-canal-o-tipo-de-venta.md
-          - "2.5 Cómo revisar análisis por área de atención en YURES": fichas/paquete-2/2.5-revisar-analisis-por-area-de-atencion.md
+          - "2.1 Cómo leer el resumen gerencial de YURES": panel-administrativo/fichas/paquete-2/2.1-leer-el-resumen-gerencial-de-yures.md
+          - "2.2 Cómo interpretar la analítica de ventas por año y mes en YURES": panel-administrativo/fichas/paquete-2/2.2-interpretar-la-analitica-de-ventas-por-ano-y-mes.md
+          - "2.3 Cómo analizar ventas por categoría o producto en YURES": panel-administrativo/fichas/paquete-2/2.3-analizar-ventas-por-categoria-o-producto.md
+          - "2.4 Cómo revisar análisis por canal o tipo de venta en YURES": panel-administrativo/fichas/paquete-2/2.4-revisar-analisis-por-canal-o-tipo-de-venta.md
+          - "2.5 Cómo revisar análisis por área de atención en YURES": panel-administrativo/fichas/paquete-2/2.5-revisar-analisis-por-area-de-atencion.md
       - Paquete 3 · Auditoría operativa:
-          - "3.1 Cómo usar la trazabilidad de operación en YURES": fichas/paquete-3/3.1-usar-la-trazabilidad-de-operacion.md
-          - "3.2 Cómo usar comandas y kitchen tracking en YURES": fichas/paquete-3/3.2-usar-comandas-y-kitchen-tracking.md
-          - "3.3 Cómo investigar anulaciones y canjes cruzando operación y ventas en YURES": fichas/paquete-3/3.3-investigar-anulaciones-y-canjes-cruzando-operacion-y-ventas.md
-          - "3.4 Checklist gerencial de buenas prácticas para turnos y cierres en YURES": fichas/paquete-3/3.4-checklist-gerencial-de-buenas-practicas-para-turnos-y-cierres.md
+          - "3.1 Cómo usar la trazabilidad de operación en YURES": panel-administrativo/fichas/paquete-3/3.1-usar-la-trazabilidad-de-operacion.md
+          - "3.2 Cómo usar comandas y kitchen tracking en YURES": panel-administrativo/fichas/paquete-3/3.2-usar-comandas-y-kitchen-tracking.md
+          - "3.3 Cómo investigar anulaciones y canjes cruzando operación y ventas en YURES": panel-administrativo/fichas/paquete-3/3.3-investigar-anulaciones-y-canjes-cruzando-operacion-y-ventas.md
+          - "3.4 Checklist gerencial de buenas prácticas para turnos y cierres en YURES": panel-administrativo/fichas/paquete-3/3.4-checklist-gerencial-de-buenas-practicas-para-turnos-y-cierres.md
       - Paquete 4 · Configuración y seguridad:
-          - "4.1 Cómo gestionar usuarios en YURES (alta, edición y desactivación)": fichas/paquete-4/4.1-gestionar-usuarios-en-yures-alta-edicion-y-desactivacion.md
-          - "4.2 Política de accesos en YURES (acciones críticas y restricción)": fichas/paquete-4/4.2-politica-de-accesos-en-yures-acciones-criticas-y-restriccion.md
-          - "4.3 Cómo configurar parámetros generales en YURES": fichas/paquete-4/4.3-configurar-parametros-generales.md
-          - "4.4 Cómo configurar documentos (series y correlativos) en YURES": fichas/paquete-4/4.4-configurar-documentos-series-y-correlativos.md
-          - "4.5 Cómo configurar impresión por documento en YURES": fichas/paquete-4/4.5-configurar-impresion-por-documento.md
-          - "4.6 Cómo configurar la estructura operativa (terminales, mesas y pisos) en YURES": fichas/paquete-4/4.6-configurar-la-estructura-operativa-terminales-mesas-y-pisos.md
-          - "4.7 Cómo configurar la identidad visual en YURES": fichas/paquete-4/4.7-configurar-la-identidad-visual.md
+          - "4.1 Cómo gestionar usuarios en YURES (alta, edición y desactivación)": panel-administrativo/fichas/paquete-4/4.1-gestionar-usuarios-en-yures-alta-edicion-y-desactivacion.md
+          - "4.2 Política de accesos en YURES (acciones críticas y restricción)": panel-administrativo/fichas/paquete-4/4.2-politica-de-accesos-en-yures-acciones-criticas-y-restriccion.md
+          - "4.3 Cómo configurar parámetros generales en YURES": panel-administrativo/fichas/paquete-4/4.3-configurar-parametros-generales.md
+          - "4.4 Cómo configurar documentos (series y correlativos) en YURES": panel-administrativo/fichas/paquete-4/4.4-configurar-documentos-series-y-correlativos.md
+          - "4.5 Cómo configurar impresión por documento en YURES": panel-administrativo/fichas/paquete-4/4.5-configurar-impresion-por-documento.md
+          - "4.6 Cómo configurar la estructura operativa (terminales, mesas y pisos) en YURES": panel-administrativo/fichas/paquete-4/4.6-configurar-la-estructura-operativa-terminales-mesas-y-pisos.md
+          - "4.7 Cómo configurar la identidad visual en YURES": panel-administrativo/fichas/paquete-4/4.7-configurar-la-identidad-visual.md
       - Paquete 5 · Catálogo y carta:
-          - "5.1 Cómo crear ítems de carta en YURES": fichas/paquete-5/5.1-crear-items-de-carta.md
-          - "5.2 Cómo configurar categorías, tipos y unidades en YURES": fichas/paquete-5/5.2-configurar-categorias-tipos-y-unidades.md
-          - "5.3 Cómo ordenar y controlar la visibilidad del catálogo en YURES": fichas/paquete-5/5.3-ordenar-y-controlar-la-visibilidad-del-catalogo.md
-          - "5.4 Cómo configurar disponibilidad por terminal en YURES": fichas/paquete-5/5.4-configurar-disponibilidad-por-terminal.md
-          - "5.5 Cómo configurar presentaciones (equivalencias) en YURES": fichas/paquete-5/5.5-configurar-presentaciones-equivalencias.md
-          - "5.6 Cómo configurar combos en YURES": fichas/paquete-5/5.6-configurar-combos.md
-          - "5.7 Cómo usar instrucciones de cocina en YURES": fichas/paquete-5/5.7-usar-instrucciones-de-cocina.md
-          - "5.8 Cómo configurar motivos de anulación en YURES": fichas/paquete-5/5.8-configurar-motivos-de-anulacion.md
-          - "5.9 Cómo leer el reporte de rotación de platos en YURES": fichas/paquete-5/5.9-leer-el-reporte-de-rotacion-de-platos.md
+          - "5.1 Cómo crear ítems de carta en YURES": panel-administrativo/fichas/paquete-5/5.1-crear-items-de-carta.md
+          - "5.2 Cómo configurar categorías, tipos y unidades en YURES": panel-administrativo/fichas/paquete-5/5.2-configurar-categorias-tipos-y-unidades.md
+          - "5.3 Cómo ordenar y controlar la visibilidad del catálogo en YURES": panel-administrativo/fichas/paquete-5/5.3-ordenar-y-controlar-la-visibilidad-del-catalogo.md
+          - "5.4 Cómo configurar disponibilidad por terminal en YURES": panel-administrativo/fichas/paquete-5/5.4-configurar-disponibilidad-por-terminal.md
+          - "5.5 Cómo configurar presentaciones (equivalencias) en YURES": panel-administrativo/fichas/paquete-5/5.5-configurar-presentaciones-equivalencias.md
+          - "5.6 Cómo configurar combos en YURES": panel-administrativo/fichas/paquete-5/5.6-configurar-combos.md
+          - "5.7 Cómo usar instrucciones de cocina en YURES": panel-administrativo/fichas/paquete-5/5.7-usar-instrucciones-de-cocina.md
+          - "5.8 Cómo configurar motivos de anulación en YURES": panel-administrativo/fichas/paquete-5/5.8-configurar-motivos-de-anulacion.md
+          - "5.9 Cómo leer el reporte de rotación de platos en YURES": panel-administrativo/fichas/paquete-5/5.9-leer-el-reporte-de-rotacion-de-platos.md
       - Paquete 6 · Inventario y costos:
-          - "6.1 Cómo gestionar almacenes en YURES": fichas/paquete-6/6.1-gestionar-almacenes.md
-          - "6.2 Cómo consultar stock por almacén en YURES": fichas/paquete-6/6.2-consultar-stock-por-almacen.md
-          - "6.3 Cómo registrar el inventario inicial de un producto en YURES": fichas/paquete-6/6.3-registrar-el-inventario-inicial-de-un-producto.md
-          - "6.4 Cómo realizar ajustes de inventario (ingresos y salidas) en YURES": fichas/paquete-6/6.4-realizar-ajustes-de-inventario-ingresos-y-salidas.md
-          - "6.5 Cómo generar el reporte de movimientos de productos en YURES": fichas/paquete-6/6.5-generar-el-reporte-de-movimientos-de-productos.md
-          - "6.6 Cómo transferir stock entre almacenes en YURES": fichas/paquete-6/6.6-transferir-stock-entre-almacenes.md
-          - "6.7 Cómo revisar el kardex en YURES": fichas/paquete-6/6.7-revisar-el-kardex.md
-          - "6.8 Cómo registrar recetas y costeo en YURES": fichas/paquete-6/6.8-registrar-recetas-y-costeo.md
-          - "6.9 Cómo revisar la rotación de recetas en YURES": fichas/paquete-6/6.9-revisar-la-rotacion-de-recetas.md
-          - "6.10 Cómo registrar producción (lotes y mermas) en YURES": fichas/paquete-6/6.10-registrar-produccion-lotes-y-mermas.md
+          - "6.1 Cómo gestionar almacenes en YURES": panel-administrativo/fichas/paquete-6/6.1-gestionar-almacenes.md
+          - "6.2 Cómo consultar stock por almacén en YURES": panel-administrativo/fichas/paquete-6/6.2-consultar-stock-por-almacen.md
+          - "6.3 Cómo registrar el inventario inicial de un producto en YURES": panel-administrativo/fichas/paquete-6/6.3-registrar-el-inventario-inicial-de-un-producto.md
+          - "6.4 Cómo realizar ajustes de inventario (ingresos y salidas) en YURES": panel-administrativo/fichas/paquete-6/6.4-realizar-ajustes-de-inventario-ingresos-y-salidas.md
+          - "6.5 Cómo generar el reporte de movimientos de productos en YURES": panel-administrativo/fichas/paquete-6/6.5-generar-el-reporte-de-movimientos-de-productos.md
+          - "6.6 Cómo transferir stock entre almacenes en YURES": panel-administrativo/fichas/paquete-6/6.6-transferir-stock-entre-almacenes.md
+          - "6.7 Cómo revisar el kardex en YURES": panel-administrativo/fichas/paquete-6/6.7-revisar-el-kardex.md
+          - "6.8 Cómo registrar recetas y costeo en YURES": panel-administrativo/fichas/paquete-6/6.8-registrar-recetas-y-costeo.md
+          - "6.9 Cómo revisar la rotación de recetas en YURES": panel-administrativo/fichas/paquete-6/6.9-revisar-la-rotacion-de-recetas.md
+          - "6.10 Cómo registrar producción (lotes y mermas) en YURES": panel-administrativo/fichas/paquete-6/6.10-registrar-produccion-lotes-y-mermas.md
       - Paquete 7 · Compras y proveedores:
-          - "7.1 Cómo gestionar proveedores en YURES": fichas/paquete-7/7.1-gestionar-proveedores.md
-          - "7.2 Cómo registrar una orden de compra en YURES": fichas/paquete-7/7.2-registrar-una-orden-de-compra.md
-          - "7.3 Cómo registrar un pedido de compra en YURES": fichas/paquete-7/7.3-registrar-un-pedido-de-compra.md
-          - "7.4 Cómo aprobar o desaprobar pedidos de compra en YURES": fichas/paquete-7/7.4-aprobar-o-desaprobar-pedidos-de-compra.md
-          - "7.5 Cómo generar reportes de pedidos de compra en YURES": fichas/paquete-7/7.5-generar-reportes-de-pedidos-de-compra.md
-          - "7.6 Cómo registrar el detalle de una orden de compra en YURES": fichas/paquete-7/7.8-registrar-el-detalle-de-una-orden-de-compra.md
-          - "7.7 Cómo generar reportes de órdenes de compra en YURES": fichas/paquete-7/7.9-generar-reportes-de-ordenes-de-compra.md
-          - "7.8 Cómo verificar la relación pedido ↔ orden de compra en YURES": fichas/paquete-7/7.10-verificar-la-relacion-pedido-orden-de-compra.md
-          - "7.9 Cómo analizar productos comprados en YURES": fichas/paquete-7/7.13-analizar-productos-comprados.md
-          - "7.10 Cómo revisar compras por cuenta contable en YURES": fichas/paquete-7/7.14-revisar-compras-por-cuenta-contable.md
+          - "7.1 Cómo gestionar proveedores en YURES": panel-administrativo/fichas/paquete-7/7.1-gestionar-proveedores.md
+          - "7.2 Cómo registrar una orden de compra en YURES": panel-administrativo/fichas/paquete-7/7.2-registrar-una-orden-de-compra.md
+          - "7.3 Cómo registrar un pedido de compra en YURES": panel-administrativo/fichas/paquete-7/7.3-registrar-un-pedido-de-compra.md
+          - "7.4 Cómo aprobar o desaprobar pedidos de compra en YURES": panel-administrativo/fichas/paquete-7/7.4-aprobar-o-desaprobar-pedidos-de-compra.md
+          - "7.5 Cómo generar reportes de pedidos de compra en YURES": panel-administrativo/fichas/paquete-7/7.5-generar-reportes-de-pedidos-de-compra.md
+          - "7.6 Cómo registrar el detalle de una orden de compra en YURES": panel-administrativo/fichas/paquete-7/7.8-registrar-el-detalle-de-una-orden-de-compra.md
+          - "7.7 Cómo generar reportes de órdenes de compra en YURES": panel-administrativo/fichas/paquete-7/7.9-generar-reportes-de-ordenes-de-compra.md
+          - "7.8 Cómo verificar la relación pedido ↔ orden de compra en YURES": panel-administrativo/fichas/paquete-7/7.10-verificar-la-relacion-pedido-orden-de-compra.md
+          - "7.9 Cómo analizar productos comprados en YURES": panel-administrativo/fichas/paquete-7/7.13-analizar-productos-comprados.md
+          - "7.10 Cómo revisar compras por cuenta contable en YURES": panel-administrativo/fichas/paquete-7/7.14-revisar-compras-por-cuenta-contable.md
       - Paquete 8 · Finanzas y gastos:
-          - "8.1 Cómo usar tesorería en YURES": fichas/paquete-8/8.1-usar-tesoreria.md
-          - "8.2 Cómo registrar ingresos administrativos en YURES": fichas/paquete-8/8.2-registrar-ingresos-administrativos.md
-          - "8.3 Cómo registrar egresos administrativos en YURES": fichas/paquete-8/8.3-registrar-egresos-administrativos.md
-          - "8.4 Cómo aprobar movimientos y validaciones en YURES": fichas/paquete-8/8.4-aprobar-movimientos-y-validaciones.md
-          - "8.5 Cómo usar el plan de cuentas en YURES": fichas/paquete-8/8.5-usar-el-plan-de-cuentas.md
-          - "8.6 Cómo configurar tipos de transacciones en YURES": fichas/paquete-8/8.6-configurar-tipos-de-transacciones.md
-          - "8.7 Cómo analizar gastos de administración en YURES": fichas/paquete-8/8.7-analizar-gastos-de-administracion.md
+          - "8.1 Cómo usar tesorería en YURES": panel-administrativo/fichas/paquete-8/8.1-usar-tesoreria.md
+          - "8.2 Cómo registrar ingresos administrativos en YURES": panel-administrativo/fichas/paquete-8/8.2-registrar-ingresos-administrativos.md
+          - "8.3 Cómo registrar egresos administrativos en YURES": panel-administrativo/fichas/paquete-8/8.3-registrar-egresos-administrativos.md
+          - "8.4 Cómo aprobar movimientos y validaciones en YURES": panel-administrativo/fichas/paquete-8/8.4-aprobar-movimientos-y-validaciones.md
+          - "8.5 Cómo usar el plan de cuentas en YURES": panel-administrativo/fichas/paquete-8/8.5-usar-el-plan-de-cuentas.md
+          - "8.6 Cómo configurar tipos de transacciones en YURES": panel-administrativo/fichas/paquete-8/8.6-configurar-tipos-de-transacciones.md
+          - "8.7 Cómo analizar gastos de administración en YURES": panel-administrativo/fichas/paquete-8/8.7-analizar-gastos-de-administracion.md
       - Paquete 9 · Clientes y fidelización:
-          - "9.1 Cómo gestionar clientes en YURES": fichas/paquete-9/9.1-gestionar-clientes.md
-          - "9.2 Cómo revisar ranking de clientes por consumo en YURES": fichas/paquete-9/9.2-revisar-ranking-de-clientes-por-consumo.md
+          - "9.1 Cómo gestionar clientes en YURES": panel-administrativo/fichas/paquete-9/9.1-gestionar-clientes.md
+          - "9.2 Cómo revisar ranking de clientes por consumo en YURES": panel-administrativo/fichas/paquete-9/9.2-revisar-ranking-de-clientes-por-consumo.md
   - Panel operativo:
       - Inicio: panel-operativo/index.md
