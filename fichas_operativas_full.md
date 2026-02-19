@@ -1,9 +1,45 @@
+# YURES · Fichas por paneles
+
+## Estructura de documentación
+
+- **Panel administrativo:** contiene las fichas activas de configuración, control y gestión del negocio.
+- **Panel operativo:** espacio reservado para próximas fichas de uso diario en punto de venta.
+
+## URLs de referencia
+
+- Panel administrativo: <https://yures.puyu.pe/admin/>
+- Panel operativo: <https://yures.puyu.pe/admin/>
+
+## Panel administrativo · Paquete 0 · Antes de iniciar
+
+## 0.0 Cómo ingresar al login del panel administrativo desde el escritorio
+
+- **Sistema:** YURES
+- **Módulo / Ruta:** Escritorio de Windows → Acceso directo **Sistema YURES** → Pantalla principal de YURES → **Supervisor** → Login Yures Admin
+- **Objetivo:** Abrir correctamente el acceso al panel administrativo desde el escritorio hasta visualizar la interfaz de inicio de sesión.
+- **Tipo / Duración:** Antes de iniciar (≤ 180 s)
+- **Precondiciones:**
+- Tener una PC encendida con acceso al escritorio de Windows.
+- Contar con el acceso directo **Sistema YURES** visible en el escritorio.
+- Disponer de conexión a internet.
+- **Pasos:**
+- En el escritorio de Windows, ubicar y hacer doble clic en el acceso directo **Sistema YURES**.
+- Esperar a que se abra la pantalla principal de YURES con las opciones **Punto de venta** y **Supervisor**.
+- Hacer clic en **Supervisor**.
+- Si aparece el mensaje de confirmación para acceder al supervisor, hacer clic en **Sí**.
+- Esperar la apertura del navegador hasta visualizar la página **Login Yures Admin**.
+- Verificar que la barra de direcciones muestre la ruta del panel administrativo.
+- **Resultado visible esperado:**
+- Se muestra la pantalla de inicio de sesión de **Yures Admin** con los campos de usuario y contraseña.
+- Queda listo el acceso para continuar con la ficha 0.1.
+- **Siguiente video:** 0.1
+
 ## 0.1 Cómo iniciar sesión en YURES
 
 - **Sistema:** YURES
 - **Módulo / Ruta:** (Acceso) → Login (fuera del menú lateral)
 - **Objetivo:** Iniciar sesión de forma segura y reconocer prácticas básicas en equipos compartidos.
-- **Tipo / Duración:** Onboarding (≤ 180 s)
+- **Tipo / Duración:** Antes de iniciar (≤ 180 s)
 - **Precondiciones:**
 - Contar con un usuario y contraseña válidos otorgados por la administración.
 - Disponer de acceso a internet y un navegador compatible.
@@ -22,7 +58,7 @@
 - **Sistema:** YURES
 - **Módulo / Ruta:** Panel → Resumen gerencial
 - **Objetivo:** Identificar navegación general: menú lateral, breadcrumb/ruta, filtros frecuentes, paginación y acciones típicas (Buscar/Imprimir/Exportar).
-- **Tipo / Duración:** Onboarding (≤ 180 s)
+- **Tipo / Duración:** Antes de iniciar (≤ 180 s)
 - **Precondiciones:**
 - Haber iniciado sesión en el sistema.
 - **Pasos:**
@@ -40,7 +76,7 @@
 - **Sistema:** YURES
 - **Módulo / Ruta:** Panel → ventana emergente de comunicados
 - **Objetivo:** Diferenciar mensajes informativos de aquellos que requieren acción y saber qué hacer ante alertas de deuda.
-- **Tipo / Duración:** Onboarding (≤ 180 s)
+- **Tipo / Duración:** Antes de iniciar (≤ 180 s)
 - **Precondiciones:**
 - Haber iniciado sesión en el sistema.
 - **Pasos:**
@@ -58,7 +94,7 @@
 - **Sistema:** YURES
 - **Módulo / Ruta:** Menú de usuario → Cerrar sesión
 - **Objetivo:** Cerrar sesión por seguridad y auditoría, especialmente en PCs de caja o administración.
-- **Tipo / Duración:** Onboarding (≤ 180 s)
+- **Tipo / Duración:** Antes de iniciar (≤ 180 s)
 - **Precondiciones:**
 - Estar logueado en el sistema.
 - **Pasos:**
@@ -429,7 +465,7 @@
 - **Sistema:** YURES
 - **Módulo / Ruta:** Caja, Turnos y Auditoría → Gestión de Turnos + Cierres de caja
 - **Objetivo:** Checklist de revisión operativa antes de validar cierres y turnos (sin enfoque contable).
-- **Tipo / Duración:** Onboarding (≤ 180 s)
+- **Tipo / Duración:** Antes de iniciar (≤ 180 s)
 - **Precondiciones:**
 - Tener la responsabilidad de revisar y aprobar turnos y cierres de caja.
 - **Pasos:**
@@ -466,7 +502,7 @@
 - **Sistema:** YURES
 - **Módulo / Ruta:** Usuarios y Seguridad → Usuarios _(aplicación por roles/permisos, según configuración disponible)_
 - **Objetivo:** Definir quién puede anular, canjear o ajustar inventario y por qué.
-- **Tipo / Duración:** Onboarding (≤ 180 s)
+- **Tipo / Duración:** Antes de iniciar (≤ 180 s)
 - **Precondiciones:**
 - Tener definidos los roles y responsabilidades dentro de la organización.
 - **Pasos:**
@@ -483,7 +519,7 @@
 - **Sistema:** YURES
 - **Módulo / Ruta:** Configuración del sistema → Parámetros generales
 - **Objetivo:** Identificar parámetros que se pueden ajustar con seguridad y precauciones.
-- **Tipo / Duración:** Onboarding (≤ 180 s)
+- **Tipo / Duración:** Antes de iniciar (≤ 180 s)
 - **Precondiciones:**
 - Poseer privilegios de configuración en el sistema.
 - **Pasos:**
@@ -1250,3 +1286,9 @@
 - Se muestra un listado de clientes ordenados por consumo o frecuencia de visitas.
 - La empresa puede diseñar acciones de fidelización basadas en datos reales de consumo.
 - **Siguiente video:** —
+
+## Panel operativo · Inicio
+
+- **Propósito:** Reunir las futuras fichas de uso diario para caja, atención de pedidos y operación en tiempo real.
+- **URL de referencia:** <https://yures.puyu.pe/admin/>
+- **Estado:** Sección reservada para próxima documentación.
