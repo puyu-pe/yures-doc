@@ -8,10 +8,11 @@ El **Panel operativo** está orientado a la ejecución diaria del punto de venta
 - Estandarizar tareas del personal operativo durante el turno.
 - Reducir errores recurrentes con guías rápidas y procedimientos simples.
 
-## URL de acceso
+## Acceso
 
-- <https://yures.puyu.pe/admin/>
+- Desde el escritorio, abrir el ícono **Sistema YURES**.
+- Al ingresar, se visualiza el **Panel operativo**.
 
 ## Estado actual
 
-Esta sección queda preparada para incorporar próximas fichas del panel operativo.
+Esta sección ya incluye la ficha inicial de acceso **0.0** y queda preparada para incorporar próximas fichas del panel operativo.

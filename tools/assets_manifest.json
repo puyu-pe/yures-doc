@@ -1,16 +1,21 @@
 {
-  "1.1": [
-    {
-      "url": "https://dev.yures.puyu.pe/Capturas/Filtros%20para%20cierre%20de%20caja.png",
-      "dest": "docs/assets/img/fichas/paquete-1/1.1-01.png"
-    },
-    {
-      "url": "https://dev.yures.puyu.pe/Capturas/Imprimir%20reporte.png",
-      "dest": "docs/assets/img/fichas/paquete-1/1.1-02.png"
-    },
-    {
-      "url": "https://dev.yures.puyu.pe/Capturas/reporte.png",
-      "dest": "docs/assets/img/fichas/paquete-1/1.1-03.png"
-    }
-  ]
+  "panel-administrativo": {
+    "1.1": [
+      {
+        "url": "https://dev.yures.puyu.pe/Capturas/Filtros%20para%20cierre%20de%20caja.png",
+        "dest": "docs/assets/img/fichas/paquete-1/1.1-01.png"
+      },
+      {
+        "url": "https://dev.yures.puyu.pe/Capturas/Imprimir%20reporte.png",
+        "dest": "docs/assets/img/fichas/paquete-1/1.1-02.png"
+      },
+      {
+        "url": "https://dev.yures.puyu.pe/Capturas/reporte.png",
+        "dest": "docs/assets/img/fichas/paquete-1/1.1-03.png"
+      }
+    ]
+  },
+  "panel-operativo": {
+    "0.0": []
+  }
 }

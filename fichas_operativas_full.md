@@ -1290,5 +1290,5 @@
 ## Panel operativo · Inicio
 
 - **Propósito:** Reunir las futuras fichas de uso diario para caja, atención de pedidos y operación en tiempo real.
-- **URL de referencia:** <https://yures.puyu.pe/admin/>
-- **Estado:** Sección reservada para próxima documentación.
+- **Acceso de referencia:** Escritorio de Windows → ícono **Sistema YURES** → Panel operativo
+- **Estado:** Ya incluye la ficha inicial **0.0** para acceso al panel operativo.
