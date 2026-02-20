@@ -2,7 +2,7 @@
 
 El **Panel operativo** está orientado a la ejecución diaria del punto de venta y la atención en tiempo real.
 
-## ¿Para qué servirá esta sección?
+## ¿Para qué sirve esta sección?
 
 - Documentar flujos de venta en caja, atención de pedidos y despacho.
 - Estandarizar tareas del personal operativo durante el turno.
@@ -15,4 +15,4 @@ El **Panel operativo** está orientado a la ejecución diaria del punto de venta
 
 ## Estado actual
 
-Esta sección ya incluye la ficha inicial de acceso **0.0** y queda preparada para incorporar próximas fichas del panel operativo.
+Esta sección incluye las fichas organizadas por paquetes en el menú de navegación.
