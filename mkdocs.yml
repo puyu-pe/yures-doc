@@ -105,5 +105,74 @@ nav:
           - "9.2 Cómo revisar ranking de clientes por consumo en YURES": panel-administrativo/fichas/paquete-9/9.2-revisar-ranking-de-clientes-por-consumo.md
   - Panel operativo:
       - Inicio: panel-operativo/index.md
-      - Paquete 0 · Antes de iniciar:
-          - "0.0 Cómo ingresar al panel operativo desde el escritorio": panel-operativo/fichas/paquete-0/0.0-ingresar-al-panel-operativo.md
+      - 'Paquete 0 · Inicio de turno y ubicación rápida':
+          - '0.0 Cómo ingresar al panel operativo desde el escritorio': panel-operativo/fichas/paquete-0/0.0-ingresar-al-panel-operativo.md
+          - '0.1 Ingresar al POS: diferencia entre Punto de venta y Supervisor': panel-operativo/fichas/paquete-0/0.1-ingresar-al-pos-diferencia-entre-punto-de-venta-y-supervisor.md
+          - '0.2 Vista de mesas: croquis, cambio de PISO, lectura rápida de mesas': panel-operativo/fichas/paquete-0/0.2-vista-de-mesas-croquis-cambio-de-piso-lectura-rapida-de-mesas.md
+          - '0.3 Canales rápidos: CALLE y DELIVERY (qué cambia y cuándo usarlo)': panel-operativo/fichas/paquete-0/0.3-canales-rapidos-calle-y-delivery-que-cambia-y-cuando-usarlo.md
+          - '0.4 Botones base (barra inferior): CAJA / BÚSQUEDA VENTA / EGRESOS-INGRESOS / LÍMITE (para qué sirve cada uno)': panel-operativo/fichas/paquete-0/0.4-botones-base-barra-inferior-caja-busqueda-venta-egresos-ingresos-limite-para-que-sirve-cada-uno.md
+      - 'Paquete 1 · Mozo: tomar pedidos y enviarlos a cocina':
+          - '1.1 Seleccionar mesa y tomar pedido (agregar ítems por categoría)': panel-operativo/fichas/paquete-1/1.1-seleccionar-mesa-y-tomar-pedido-agregar-items-por-categoria.md
+          - '1.2 Buscar producto por nombre o código': panel-operativo/fichas/paquete-1/1.2-buscar-producto-por-nombre-o-codigo.md
+          - '1.3 Ajustar cantidades rápido: + / – y quitar ítem con X': panel-operativo/fichas/paquete-1/1.3-ajustar-cantidades-rapido-mas-y-quitar-item-con-x.md
+          - '1.4 Agregar Instrucción para cocina (mensaje por ítem)': panel-operativo/fichas/paquete-1/1.4-agregar-instruccion-para-cocina-mensaje-por-item.md
+          - '1.5 Combos (simple): agregar el combo y completar los ítems requeridos': panel-operativo/fichas/paquete-1/1.5-combos-simple-agregar-el-combo-y-completar-los-items-requeridos.md
+          - '1.6 Combos (fijo): confirmar componentes definidos y aplicar cambios permitidos (si el combo lo permite)': panel-operativo/fichas/paquete-1/1.6-combos-fijo-confirmar-componentes-definidos-y-aplicar-cambios-permitidos-si-el-combo-lo-permite.md
+          - '1.7 Combos (dinámico desde lista): escoger cantidad exacta (N) desde una lista': panel-operativo/fichas/paquete-1/1.7-combos-dinamico-desde-lista-escoger-cantidad-exacta-n-desde-una-lista.md
+          - '1.8 Intercambio de componentes: reemplazar uno o varios elementos cuando el combo lo permite': panel-operativo/fichas/paquete-1/1.8-intercambio-de-componentes-reemplazar-uno-o-varios-elementos-cuando-el-combo-lo-permite.md
+          - '1.9 ENVIAR a cocina: qué confirma que sí se envió': panel-operativo/fichas/paquete-1/1.9-enviar-a-cocina-que-confirma-que-si-se-envio.md
+          - '1.10 Precuenta: cuándo usarla y qué imprime': panel-operativo/fichas/paquete-1/1.10-precuenta-cuando-usarla-y-que-imprime.md
+          - '1.11 Cerrar vs Liberar mesa: diferencias y errores típicos': panel-operativo/fichas/paquete-1/1.11-cerrar-vs-liberar-mesa-diferencias-y-errores-tipicos.md
+      - 'Paquete 2 · Cajero: liquidar venta y cobrar sin descuadres':
+          - '2.1 Abrir Liquidar venta: qué significa Pendiente vs Pagado': panel-operativo/fichas/paquete-2/2.1-abrir-liquidar-venta-que-significa-pendiente-vs-pagado.md
+          - '2.2 Cobro simple Efectivo: Registrar Pago + Guardar (orden correcto)': panel-operativo/fichas/paquete-2/2.2-cobro-simple-efectivo-registrar-pago-mas-guardar-orden-correcto.md
+          - '2.3 Cobro Tarjeta / Yape / Plin / Transferencia / Depósito: elegir medio correcto': panel-operativo/fichas/paquete-2/2.3-cobro-tarjeta-yape-plin-transferencia-deposito-elegir-medio-correcto.md
+          - '2.4 Multi-pagos: combinar dos o más medios (ej. Yape + efectivo)': panel-operativo/fichas/paquete-2/2.4-multi-pagos-combinar-dos-o-mas-medios-ej-yape-mas-efectivo.md
+          - '2.5 Recargo y Descuento: cuándo se usa y qué pasa si está restringido': panel-operativo/fichas/paquete-2/2.5-recargo-y-descuento-cuando-se-usa-y-que-pasa-si-esta-restringido.md
+          - '2.6 Tipo de documento: Ticket / Boleta electrónica / Factura electrónica (cuándo usar cada uno)': panel-operativo/fichas/paquete-2/2.6-tipo-de-documento-ticket-boleta-electronica-factura-electronica-cuando-usar-cada-uno.md
+          - '2.7 Datos de cliente (DNI/RUC, razón social, dirección, correo, celular): mínimo necesario por documento': panel-operativo/fichas/paquete-2/2.7-datos-de-cliente-dni-ruc-razon-social-direccion-correo-celular-minimo-necesario-por-documento.md
+          - '2.8 Imprimir / Reimprimir desde liquidación (casos típicos de cliente)': panel-operativo/fichas/paquete-2/2.8-imprimir-reimprimir-desde-liquidacion-casos-tipicos-de-cliente.md
+      - 'Paquete 3 · Dividir cuenta y cobrar por partes':
+          - '3.1 Dividir cuenta por ítems: mover de Items pendientes a Items a pagar': panel-operativo/fichas/paquete-3/3.1-dividir-cuenta-por-items-mover-de-items-pendientes-a-items-a-pagar.md
+          - '3.2 Pagar una parte y dejar el resto pendiente: cómo continuar sin perder control': panel-operativo/fichas/paquete-3/3.2-pagar-una-parte-y-dejar-el-resto-pendiente-como-continuar-sin-perder-control.md
+          - '3.3 Buenas prácticas: dividir antes de registrar pagos': panel-operativo/fichas/paquete-3/3.3-buenas-practicas-dividir-antes-de-registrar-pagos.md
+      - 'Paquete 4 · Solución rápida de problemas (los casos más comunes)':
+          - '4.1 Pedido no llega a cocina (impresora): checklist en 60 segundos': panel-operativo/fichas/paquete-4/4.1-pedido-no-llega-a-cocina-impresora-checklist-en-60-segundos.md
+          - '4.2 Pedido no llega a cocina (impresora): causas de red y cambios de IP': panel-operativo/fichas/paquete-4/4.2-pedido-no-llega-a-cocina-impresora-causas-de-red-y-cambios-de-ip.md
+          - '4.3 KDS no muestra pedidos: checklist rápido (caso KDS)': panel-operativo/fichas/paquete-4/4.3-kds-no-muestra-pedidos-checklist-rapido-caso-kds.md
+          - '4.4 Cobran mal: cómo corregir antes de finalizar': panel-operativo/fichas/paquete-4/4.4-cobran-mal-como-corregir-antes-de-finalizar.md
+          - '4.5 "Pedido duplicado" al cambiar de mesa: explicación real': panel-operativo/fichas/paquete-4/4.5-pedido-duplicado-al-cambiar-de-mesa-explicacion-real.md
+          - '4.6 Mover a mesa vs Juntar mesa: cuándo usar cada uno': panel-operativo/fichas/paquete-4/4.6-mover-a-mesa-vs-juntar-mesa-cuando-usar-cada-uno.md
+          - '4.7 Deshacer una mesa juntada (sin perder ítems)': panel-operativo/fichas/paquete-4/4.7-deshacer-una-mesa-juntada-sin-perder-items.md
+          - '4.8 Movimientos de mesa(s): auditar qué pasó y dejar razón': panel-operativo/fichas/paquete-4/4.8-movimientos-de-mesa-s-auditar-que-paso-y-dejar-razon.md
+          - '4.9 Liberar mesa: cuándo sí y cuándo no': panel-operativo/fichas/paquete-4/4.9-liberar-mesa-cuando-si-y-cuando-no.md
+          - '4.10 Combo mal armado: cómo corregir antes de enviar a cocina': panel-operativo/fichas/paquete-4/4.10-combo-mal-armado-como-corregir-antes-de-enviar-a-cocina.md
+      - 'Paquete 5 · Buscar venta y corregir desde operativo (acciones rápidas)':
+          - '5.1 Entrar a Búsqueda venta (barra inferior)': panel-operativo/fichas/paquete-5/5.1-entrar-a-busqueda-venta-barra-inferior.md
+          - '5.2 Buscar documento por tipo + serie + correlativo y previsualizar': panel-operativo/fichas/paquete-5/5.2-buscar-documento-por-tipo-mas-serie-mas-correlativo-y-previsualizar.md
+          - '5.3 Imprimir desde búsqueda (casos típicos)': panel-operativo/fichas/paquete-5/5.3-imprimir-desde-busqueda-casos-tipicos.md
+          - '5.4 Canjear desde operativo: cuándo aplica y qué validar antes': panel-operativo/fichas/paquete-5/5.4-canjear-desde-operativo-cuando-aplica-y-que-validar-antes.md
+          - '5.5 Anular desde operativo: cuándo aplica y por qué requiere control': panel-operativo/fichas/paquete-5/5.5-anular-desde-operativo-cuando-aplica-y-por-que-requiere-control.md
+          - '5.6 Ver/validar documento desde búsqueda: evitar anular/canjear el documento equivocado': panel-operativo/fichas/paquete-5/5.6-ver-validar-documento-desde-busqueda-evitar-anular-canjear-el-documento-equivocado.md
+      - 'Paquete 6 · Canales de venta (variantes cortas)':
+          - '6.1 Venta en Mesa (croquis): seleccionar mesa → tomar pedido → enviar → precuenta → liquidar': panel-operativo/fichas/paquete-6/6.1-venta-en-mesa-croquis-seleccionar-mesa-tomar-pedido-enviar-precuenta-liquidar.md
+          - '6.2 Venta en Salón / lista (si aplica): flujo equivalente al croquis': panel-operativo/fichas/paquete-6/6.2-venta-en-salon-lista-si-aplica-flujo-equivalente-al-croquis.md
+          - '6.3 Venta CALLE (mostrador/rápido): pedido directo → liquidación': panel-operativo/fichas/paquete-6/6.3-venta-calle-mostrador-rapido-pedido-directo-liquidacion.md
+          - '6.4 Venta DELIVERY: creación de pedido → control de entrega': panel-operativo/fichas/paquete-6/6.4-venta-delivery-creacion-de-pedido-control-de-entrega.md
+          - '6.5 Para llevar: flujo de venta y entrega': panel-operativo/fichas/paquete-6/6.5-para-llevar-flujo-de-venta-y-entrega.md
+          - '6.6 Botones laterales: ESTADO y ENTREGAS (qué resuelven en la operación)': panel-operativo/fichas/paquete-6/6.6-botones-laterales-estado-y-entregas-que-resuelven-en-la-operacion.md
+      - 'Paquete 7 · Supervisor: control y corrección segura':
+          - '7.1 Entrar como Supervisor: qué habilita y qué no': panel-operativo/fichas/paquete-7/7.1-entrar-como-supervisor-que-habilita-y-que-no.md
+          - '7.2 Política operativa recomendada: qué acciones deben ser solo de supervisor (anular/canjear/descuentos/liberar)': panel-operativo/fichas/paquete-7/7.2-politica-operativa-recomendada-que-acciones-deben-ser-solo-de-supervisor-anular-canjear-descuentos-liberar.md
+          - '7.3 Resolver "mesa pegada / pedido en dos mesas": auditar y corregir sin perder consumo': panel-operativo/fichas/paquete-7/7.3-resolver-mesa-pegada-pedido-en-dos-mesas-auditar-y-corregir-sin-perder-consumo.md
+          - '7.4 Cierre operativo rápido: checklist de supervisor antes de entregar caja': panel-operativo/fichas/paquete-7/7.4-cierre-operativo-rapido-checklist-de-supervisor-antes-de-entregar-caja.md
+      - 'Paquete 8 · Impresión y dispositivos (hardware real)':
+          - '8.1 Impresión de ticket en caja: validaciones mínimas': panel-operativo/fichas/paquete-8/8.1-impresion-de-ticket-en-caja-validaciones-minimas.md
+          - '8.2 Impresión de comanda a cocina (impresora asignada)': panel-operativo/fichas/paquete-8/8.2-impresion-de-comanda-a-cocina-impresora-asignada.md
+          - '8.3 Precuenta desde celular/tablet Android con ticketera bluetooth': panel-operativo/fichas/paquete-8/8.3-precuenta-desde-celular-tablet-android-con-ticketera-bluetooth.md
+          - '8.4 PUKA-HTTP: qué es, cómo saber si está activo y por qué afecta la impresión': panel-operativo/fichas/paquete-8/8.4-puka-http-que-es-como-saber-si-esta-activo-y-por-que-afecta-la-impresion.md
+          - '8.5 Buenas prácticas de red: evitar que el PC servidor cambie de IP (router/switch/Wi-Fi)': panel-operativo/fichas/paquete-8/8.5-buenas-practicas-de-red-evitar-que-el-pc-servidor-cambie-de-ip-router-switch-wi-fi.md
+      - 'Paquete 9 · Límites y control de disponibilidad':
+          - '9.1 Registrar límite de ítems: editar totales y Guardar': panel-operativo/fichas/paquete-9/9.1-registrar-limite-de-items-editar-totales-y-guardar.md
+          - '9.2 Revisar pestaña Reporte (si se usa para control diario)': panel-operativo/fichas/paquete-9/9.2-revisar-pestana-reporte-si-se-usa-para-control-diario.md
+          - '9.3 Caso práctico: qué hacer cuando un ítem llega a su límite (evitar reclamos en cocina)': panel-operativo/fichas/paquete-9/9.3-caso-practico-que-hacer-cuando-un-item-llega-a-su-limite-evitar-reclamos-en-cocina.md
