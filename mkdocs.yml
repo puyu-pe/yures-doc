@@ -116,13 +116,14 @@ nav:
           - '1.2 Buscar producto por nombre o código': panel-operativo/fichas/paquete-1/1.2-buscar-producto-por-nombre-o-codigo.md
           - '1.3 Ajustar cantidades rápido: + / – y quitar ítem con X': panel-operativo/fichas/paquete-1/1.3-ajustar-cantidades-rapido-mas-y-quitar-item-con-x.md
           - '1.4 Agregar Instrucción para cocina (mensaje por ítem)': panel-operativo/fichas/paquete-1/1.4-agregar-instruccion-para-cocina-mensaje-por-item.md
-          - '1.5 Combos (simple): agregar el combo y completar los ítems requeridos': panel-operativo/fichas/paquete-1/1.5-combos-simple-agregar-el-combo-y-completar-los-items-requeridos.md
-          - '1.6 Combos (fijo): confirmar componentes definidos y aplicar cambios permitidos (si el combo lo permite)': panel-operativo/fichas/paquete-1/1.6-combos-fijo-confirmar-componentes-definidos-y-aplicar-cambios-permitidos-si-el-combo-lo-permite.md
-          - '1.7 Combos (dinámico desde lista): escoger cantidad exacta (N) desde una lista': panel-operativo/fichas/paquete-1/1.7-combos-dinamico-desde-lista-escoger-cantidad-exacta-n-desde-una-lista.md
-          - '1.8 Intercambio de componentes: reemplazar uno o varios elementos cuando el combo lo permite': panel-operativo/fichas/paquete-1/1.8-intercambio-de-componentes-reemplazar-uno-o-varios-elementos-cuando-el-combo-lo-permite.md
-          - '1.9 ENVIAR a cocina: qué confirma que sí se envió': panel-operativo/fichas/paquete-1/1.9-enviar-a-cocina-que-confirma-que-si-se-envio.md
-          - '1.10 Precuenta: cuándo usarla y qué imprime': panel-operativo/fichas/paquete-1/1.10-precuenta-cuando-usarla-y-que-imprime.md
-          - '1.11 Cerrar vs Liberar mesa: diferencias y errores típicos': panel-operativo/fichas/paquete-1/1.11-cerrar-vs-liberar-mesa-diferencias-y-errores-tipicos.md
+          - '1.5 Combos: completar todas las opciones antes de guardar': panel-operativo/fichas/paquete-1/1.5-combos-completar-todas-las-opciones-antes-de-guardar-por-que-a-veces-no-deja-continuar.md
+          - '1.6 Componentes fijos (en gris): qué vienen incluidos y por qué no se pueden cambiar': panel-operativo/fichas/paquete-1/1.6-componentes-fijos-en-gris-que-vienen-incluidos-y-por-que-no-se-pueden-cambiar.md
+          - '1.7 Componentes simples (elige solo uno): cómo elegir correctamente y evitar errores': panel-operativo/fichas/paquete-1/1.7-componentes-simples-elige-solo-uno-como-elegir-correctamente-y-evitar-errores.md
+          - '1.8 Componentes dinámicos (elige varios): cómo completar la cantidad exacta para poder guardar': panel-operativo/fichas/paquete-1/1.8-componentes-dinamicos-elige-varios-como-completar-la-cantidad-exacta-para-poder-guardar.md
+          - '1.9 Combo mal armado: por qué no deja guardar o cocina recibe mal el pedido': panel-operativo/fichas/paquete-1/1.9-combo-mal-armado-por-que-no-deja-guardar-o-cocina-recibe-mal-el-pedido.md
+          - '1.10 ENVIAR a cocina: qué confirma que sí se envió': panel-operativo/fichas/paquete-1/1.10-enviar-a-cocina-que-confirma-que-si-se-envio.md
+          - '1.11 Precuenta: cuándo usarla y qué imprime': panel-operativo/fichas/paquete-1/1.11-precuenta-cuando-usarla-y-que-imprime.md
+          - '1.12 Cerrar vs Liberar mesa: diferencias y errores típicos': panel-operativo/fichas/paquete-1/1.12-cerrar-vs-liberar-mesa-diferencias-y-errores-tipicos.md
       - 'Paquete 2 · Cajero: liquidar venta y cobrar sin descuadres':
           - '2.1 Abrir Liquidar venta: qué significa Pendiente vs Pagado': panel-operativo/fichas/paquete-2/2.1-abrir-liquidar-venta-que-significa-pendiente-vs-pagado.md
           - '2.2 Cobro simple Efectivo: Registrar Pago + Guardar (orden correcto)': panel-operativo/fichas/paquete-2/2.2-cobro-simple-efectivo-registrar-pago-mas-guardar-orden-correcto.md
@@ -131,7 +132,7 @@ nav:
           - '2.5 Recargo y Descuento: cuándo se usa y qué pasa si está restringido': panel-operativo/fichas/paquete-2/2.5-recargo-y-descuento-cuando-se-usa-y-que-pasa-si-esta-restringido.md
           - '2.6 Tipo de documento: Ticket / Boleta electrónica / Factura electrónica (cuándo usar cada uno)': panel-operativo/fichas/paquete-2/2.6-tipo-de-documento-ticket-boleta-electronica-factura-electronica-cuando-usar-cada-uno.md
           - '2.7 Datos de cliente (DNI/RUC, razón social, dirección, correo, celular): mínimo necesario por documento': panel-operativo/fichas/paquete-2/2.7-datos-de-cliente-dni-ruc-razon-social-direccion-correo-celular-minimo-necesario-por-documento.md
-          - '2.8 Imprimir / Reimprimir desde liquidación (casos típicos de cliente)': panel-operativo/fichas/paquete-2/2.8-imprimir-reimprimir-desde-liquidacion-casos-tipicos-de-cliente.md
+          - '2.8 Imprimir / Reimprimir desde búsqueda de venta (casos típicos de cliente)': panel-operativo/fichas/paquete-2/2.8-imprimir-reimprimir-desde-busqueda-de-venta-casos-tipicos-de-cliente.md
       - 'Paquete 3 · Dividir cuenta y cobrar por partes':
           - '3.1 Dividir cuenta por ítems: mover de Items pendientes a Items a pagar': panel-operativo/fichas/paquete-3/3.1-dividir-cuenta-por-items-mover-de-items-pendientes-a-items-a-pagar.md
           - '3.2 Pagar una parte y dejar el resto pendiente: cómo continuar sin perder control': panel-operativo/fichas/paquete-3/3.2-pagar-una-parte-y-dejar-el-resto-pendiente-como-continuar-sin-perder-control.md
