@@ -1,5 +1,5 @@
 # YURES Docs
----
+--- -
 Repositorio de documentación de **YURES** construido con **MkDocs Material**.
 
 Aquí se mantiene la guía por paneles:
