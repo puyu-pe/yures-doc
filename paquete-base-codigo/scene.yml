@@ -1,0 +1,182 @@
+version: 1
+
+documento:
+  id: panel_administrativo_canje_ticket_boleta_factura
+  titulo: 1.8 Cómo canjear un ticket a boleta o factura en Panel Administrativo
+  modulo: Ventas y Documentos
+  pantalla: Búsqueda y gestión de comprobantes
+  objetivo: Canjear un ticket válido por una boleta o factura desde el panel administrativo
+
+configuracion_srt:
+  tono: operativo_guiado
+  voz: formal_clara
+  incluir_contexto_visual: true
+  incluir_opciones_relevantes: true
+  incluir_validaciones: true
+  no_inferir_elementos_no_visibles: true
+
+escenas:
+  - id: escena_01
+    tipo: navegacion
+    titulo: Ingreso al módulo de comprobantes
+    objetivo_visual: Mostrar la ruta de acceso al flujo de canje dentro del panel administrativo.
+    bloque_ui: menu_ventas_documentos
+    foco_visual:
+      - Ventas y Documentos
+      - Búsqueda y gestión de comprobantes
+    pasos_referenciados:
+      - 1
+      - 2
+    narracion_base:
+      - Ingrese a Ventas y Documentos.
+      - Abra Búsqueda y gestión de comprobantes.
+    explicaciones:
+      - Esta pantalla concentra la búsqueda, revisión y gestión de comprobantes.
+    validaciones:
+      - El flujo parte desde la opción de menú confirmada para sales/search.
+    notas:
+      - No narrar módulos vecinos como Historial de ventas o Notas de crédito.
+
+  - id: escena_02
+    tipo: filtros
+    titulo: Búsqueda del ticket
+    objetivo_visual: Mostrar cómo localizar el ticket antes de abrir el canje.
+    bloque_ui: panel_busqueda_filtros
+    foco_visual:
+      - Búsqueda por filtros
+      - Búsqueda individual (serie/correlativo)
+      - Buscar
+    pasos_referenciados:
+      - 3
+    narracion_base:
+      - Busque el ticket con Búsqueda por filtros o con Búsqueda individual por serie y correlativo.
+      - Si usa filtros, complete Origen, Documento, fechas y Estado antes de pulsar Buscar.
+    explicaciones:
+      - El selector Documento de búsqueda se habilita después de elegir el Origen.
+    validaciones:
+      - La interfaz ofrece dos pestañas de búsqueda en la misma pantalla.
+    notas:
+      - Mantener el foco en los campos usados para localizar el ticket, no en la impresión del listado.
+
+  - id: escena_03
+    tipo: seleccion_resultado
+    titulo: Selección del ticket a canjear
+    objetivo_visual: Mostrar la fila del ticket encontrado y la acción Canjear ticket.
+    bloque_ui: tabla_resultados
+    foco_visual:
+      - Documento
+      - Estado
+      - Opciones
+      - Canjear ticket
+    pasos_referenciados:
+      - 4
+      - 5
+    narracion_base:
+      - Ubique la fila del TICKET en la tabla de resultados.
+      - En Opciones, seleccione Canjear ticket.
+    explicaciones:
+      - La acción de canje aparece solo para tickets que siguen vigentes.
+    validaciones:
+      - Canjear ticket solo se muestra cuando el documento es TICKET y el estado no es anulado.
+    notas:
+      - No mostrar opciones que no participan en este flujo, como Ver comandas o Abrir en Nexus.
+
+  - id: escena_04
+    tipo: formulario_modal
+    titulo: Selección de documento y serie
+    objetivo_visual: Mostrar el modal Canjear Venta con la elección del nuevo comprobante.
+    bloque_ui: modal_canjear_venta
+    foco_visual:
+      - Canjear Venta
+      - DOCUMENTO
+      - SERIE
+      - FECHA EMISIÓN
+    pasos_referenciados:
+      - 6
+      - 7
+      - 8
+      - 9
+    narracion_base:
+      - En Canjear Venta, seleccione el documento de destino.
+      - Luego elija la serie habilitada y revise la fecha de emisión.
+    explicaciones:
+      - El correlativo del nuevo comprobante se obtiene automáticamente desde la serie elegida.
+    validaciones:
+      - DOCUMENTO y SERIE son obligatorios para el canje.
+      - La fecha de emisión no puede ser anterior a más de 3 días desde hoy.
+    notas:
+      - Mantener visible la alerta informativa del modal si acompaña la selección.
+
+  - id: escena_05
+    tipo: formulario_modal
+    titulo: Validación de datos del cliente
+    objetivo_visual: Mostrar la captura o actualización de DNI o RUC, razón social y dirección.
+    bloque_ui: modal_canjear_venta
+    foco_visual:
+      - DNI o RUC
+      - Nombre o razon social
+      - Dirección
+      - Obtener datos actualizados
+    pasos_referenciados:
+      - 10
+    narracion_base:
+      - Complete o actualice el DNI o RUC del cliente.
+      - Revise el nombre o razón social y la dirección antes de continuar.
+    explicaciones:
+      - El botón de actualización fuerza la consulta del cliente con el documento ingresado.
+      - Si se ingresa guion, el modal completa CLIENTES VARIOS para un cliente genérico.
+    validaciones:
+      - Para factura, el documento debe tener 11 dígitos y corresponder a un cliente con RUC.
+      - Para factura, el nombre o razón social es obligatorio.
+    notas:
+      - No afirmar búsquedas automáticas externas fuera de lo que el formulario ya muestra.
+
+  - id: escena_06
+    tipo: confirmacion
+    titulo: Confirmación del canje
+    objetivo_visual: Mostrar la selección de formato y la confirmación final del proceso.
+    bloque_ui: modal_canjear_venta
+    foco_visual:
+      - FORMATO
+      - CANJEAR
+    pasos_referenciados:
+      - 11
+      - 12
+    narracion_base:
+      - Elija el formato del nuevo comprobante.
+      - Pulse CANJEAR para generar la boleta o factura.
+    explicaciones:
+      - El botón cambia a CANJEANDO mientras el proceso está en curso.
+    validaciones:
+      - Si falta un dato obligatorio, el formulario resalta el campo y no envía el canje.
+    notas:
+      - No narrar campos ya completados salvo los estrictamente necesarios para confirmar.
+
+  - id: escena_07
+    tipo: resultado
+    titulo: Resultado del nuevo comprobante
+    objetivo_visual: Mostrar el éxito del canje y la apertura del visor de impresión.
+    bloque_ui: visor_impresion
+    foco_visual:
+      - mensaje de éxito
+      - dlgPrint
+      - framePrint
+    pasos_referenciados:
+      - 13
+    narracion_base:
+      - El sistema genera el nuevo comprobante y abre la vista de impresión o descarga.
+      - El ticket original queda anulado para el canje realizado.
+    explicaciones:
+      - La fila del ticket anterior se retira del listado actual después del canje exitoso.
+    validaciones:
+      - El flujo devuelve un identificador de venta para cargar el PDF del nuevo comprobante.
+    notas:
+      - No inventar mensajes adicionales distintos al éxito y a la apertura del visor.
+
+qa:
+  verificar:
+    - Cada escena debe referenciar un bloque_ui existente en metadata.yml.
+    - Las escenas 04, 05 y 06 no deben introducir campos distintos a los visibles en el modal Canjear Venta.
+    - La narración debe conservar que Canjear ticket solo aparece para tickets no anulados.
+    - La validación de factura debe mantener la exigencia de RUC de 11 dígitos.
+    - El resultado debe limitarse al éxito del canje y a la apertura del visor de impresión.

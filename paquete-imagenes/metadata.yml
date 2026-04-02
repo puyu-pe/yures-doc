@@ -1,0 +1,310 @@
+version: 1
+
+documento:
+  id: pa_admin_1_8_canjear_ticket_boleta_factura
+  titulo: "1.8 Cómo canjear un ticket a boleta o factura en Panel Administrativo"
+  modulo: "Panel Administrativo"
+  pantalla: "Búsqueda y gestión de comprobantes"
+  objetivo: "Canjear un ticket a boleta electrónica o factura electrónica desde la búsqueda de comprobantes."
+
+fuentes:
+  modalidad: imagenes
+  artefactos:
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-01.png
+      observacion: "Ruta de acceso a Búsqueda y gestión de comprobantes y pestaña Búsqueda por filtros."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-02.png
+      observacion: "Campos visibles del panel de filtros y botón Buscar."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-03..png
+      observacion: "Opciones visibles del campo Origen."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-04.png
+      observacion: "Opciones visibles del campo Documento en la búsqueda por filtros."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-05.png
+      observacion: "Selector de Fecha inicio."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-06.png
+      observacion: "Opciones visibles del campo Estado."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-07.png
+      observacion: "Opciones visibles de Datos por página y acción Buscar."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-08.png
+      observacion: "Tabla de resultados y menú Opciones con la acción Canjear ticket."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-09.png
+      observacion: "Apertura del modal Canjear Venta con campos del cliente y del comprobante."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-10.png
+      observacion: "Opciones visibles del campo DOCUMENTO dentro del modal."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-11.png
+      observacion: "Selector de FECHA EMISIÓN y serie visible tras elegir boleta."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-12.png
+      observacion: "Campos DNI o RUC, Nombre o razon social, Dirección, FORMATO y botón CANJEAR."
+    - tipo: imagen
+      referencia: /var/home/admin/Documentos/projects/yures-doc/docs/assets/img/fichas/paquete-1/1.8-13.png
+      observacion: "Resultado visible con visor del comprobante y notificaciones verdes."
+
+contexto_operativo:
+  resumen: "El flujo parte desde la búsqueda de comprobantes, localiza un ticket en la tabla, abre el modal Canjear Venta y confirma un nuevo comprobante electrónico con datos del cliente y formato de salida."
+  precondiciones:
+    - "Acceso al menú Ventas y Documentos y a la pantalla Búsqueda y gestión de comprobantes."
+    - "Existencia de un registro visible en la tabla desde el cual se pueda abrir la opción Canjear ticket."
+    - "Disponibilidad del dato DNI o RUC del cliente para completar o refrescar la información visible en el modal."
+  resultado_esperado:
+    - "Se abre la ventana Comprobante con la vista previa del PDF generado."
+    - "Aparecen avisos verdes de confirmación del comprobante encontrado y del proceso de envío visible en el ejemplo."
+
+bloques_ui:
+  - id: menu_lateral
+    nombre_visible: "Menú de navegación"
+    descripcion: "Barra lateral desde la que se ingresa al módulo de ventas y comprobantes."
+    elementos_clave:
+      - "Ventas y Documentos"
+      - "Búsqueda y gestión de comprobantes"
+  - id: panel_busqueda
+    nombre_visible: "Búsqueda y gestión de comprobantes"
+    descripcion: "Panel principal de filtros para localizar comprobantes."
+    elementos_clave:
+      - "Búsqueda por filtros"
+      - "Búsqueda individual (serie/correlativo)"
+      - "Origen"
+      - "Documento"
+      - "Fecha inicio"
+      - "Fecha fin"
+      - "Estado"
+      - "Datos por página"
+      - "Buscar"
+      - "Imprimir"
+  - id: tabla_resultados
+    nombre_visible: "Tabla de comprobantes"
+    descripcion: "Listado paginado de comprobantes encontrados."
+    elementos_clave:
+      - "Documento"
+      - "Serie-Correlativo"
+      - "DNI/RUC"
+      - "Cliente"
+      - "Pago"
+      - "Estado"
+      - "Igv"
+      - "Subtotal"
+      - "Total"
+      - "Usuario"
+      - "Hora"
+      - "Opciones"
+  - id: modal_canjear_venta
+    nombre_visible: "Canjear Venta"
+    descripcion: "Modal para definir el documento destino, los datos del cliente y el formato del nuevo comprobante."
+    elementos_clave:
+      - "DOCUMENTO"
+      - "SERIE"
+      - "FECHA EMISIÓN"
+      - "DNI o RUC"
+      - "Nombre o razon social"
+      - "Dirección"
+      - "FORMATO"
+      - "CERRAR"
+      - "CANJEAR"
+  - id: visor_comprobante
+    nombre_visible: "Comprobante"
+    descripcion: "Ventana de vista previa del comprobante generado con visor PDF y avisos de confirmación."
+    elementos_clave:
+      - "pdf"
+      - "Comprobante encontrado"
+      - "La Boleta número BG01-19, se encuentra en proceso de envío."
+
+pasos_base:
+  - numero: 1
+    descripcion: "Ingresar a Ventas y Documentos y abrir Búsqueda y gestión de comprobantes."
+    bloque_ui: menu_lateral
+  - numero: 2
+    descripcion: "Mantener la pestaña Búsqueda por filtros como vista activa."
+    bloque_ui: panel_busqueda
+  - numero: 3
+    descripcion: "Definir los filtros visibles para localizar el ticket: Origen, Documento, Fecha inicio, Fecha fin, Estado y, si corresponde, Datos por página."
+    bloque_ui: panel_busqueda
+  - numero: 4
+    descripcion: "Ejecutar la búsqueda con el botón Buscar."
+    bloque_ui: panel_busqueda
+  - numero: 5
+    descripcion: "Ubicar el registro en la tabla de resultados."
+    bloque_ui: tabla_resultados
+  - numero: 6
+    descripcion: "Abrir Opciones y seleccionar Canjear ticket."
+    bloque_ui: tabla_resultados
+  - numero: 7
+    descripcion: "En el modal Canjear Venta, elegir el DOCUMENTO de destino."
+    bloque_ui: modal_canjear_venta
+  - numero: 8
+    descripcion: "Revisar la SERIE visible y la FECHA EMISIÓN del nuevo comprobante."
+    bloque_ui: modal_canjear_venta
+  - numero: 9
+    descripcion: "Ingresar o refrescar el DNI o RUC y verificar Nombre o razon social y Dirección."
+    bloque_ui: modal_canjear_venta
+  - numero: 10
+    descripcion: "Elegir el FORMATO y confirmar la acción con CANJEAR."
+    bloque_ui: modal_canjear_venta
+  - numero: 11
+    descripcion: "Verificar la apertura del comprobante y los avisos verdes de confirmación."
+    bloque_ui: visor_comprobante
+
+campos:
+  - nombre: "Origen"
+    bloque_ui: panel_busqueda
+    tipo: selector
+    obligatorio: false
+    descripcion: "Filtro de procedencia del comprobante."
+    opciones:
+      - valor: "P. Operativo"
+        significado: "Origen visible en las capturas para localizar tickets del ejemplo."
+      - valor: "P. Administrativo"
+        significado: "Alternativa visible dentro del selector."
+  - nombre: "Documento (filtro)"
+    bloque_ui: panel_busqueda
+    tipo: selector
+    obligatorio: false
+    descripcion: "Filtro por tipo de comprobante dentro de la búsqueda."
+    opciones:
+      - valor: "TODO"
+        significado: "Muestra todos los tipos visibles en la búsqueda."
+      - valor: "TICKET"
+        significado: "Permite ubicar tickets dentro del listado."
+      - valor: "BOLETA ELECTRÓNICA"
+        significado: "Filtro visible para boletas electrónicas."
+      - valor: "FACTURA ELECTRÓNICA"
+        significado: "Filtro visible para facturas electrónicas."
+  - nombre: "Fecha inicio"
+    bloque_ui: panel_busqueda
+    tipo: fecha
+    obligatorio: false
+    descripcion: "Fecha inicial del rango usado en la búsqueda."
+  - nombre: "Fecha fin"
+    bloque_ui: panel_busqueda
+    tipo: fecha
+    obligatorio: false
+    descripcion: "Fecha final del rango usado en la búsqueda."
+  - nombre: "Estado"
+    bloque_ui: panel_busqueda
+    tipo: selector
+    obligatorio: false
+    descripcion: "Filtro por estado del comprobante."
+    opciones:
+      - valor: "Válidos"
+        significado: "Estado visible en el ejemplo de búsqueda."
+      - valor: "Anulados"
+        significado: "Alternativa visible dentro del selector."
+  - nombre: "Datos por página"
+    bloque_ui: panel_busqueda
+    tipo: selector
+    obligatorio: false
+    descripcion: "Cantidad de resultados visibles por página."
+    opciones:
+      - valor: "10"
+        significado: "Cantidad mínima visible."
+      - valor: "20"
+        significado: "Alternativa visible."
+      - valor: "50"
+        significado: "Alternativa visible."
+      - valor: "100"
+        significado: "Alternativa visible."
+  - nombre: "DOCUMENTO"
+    bloque_ui: modal_canjear_venta
+    tipo: selector
+    obligatorio: true
+    descripcion: "Tipo de comprobante destino dentro del modal de canje."
+    opciones:
+      - valor: "BOLETA ELECTRÓNICA"
+        significado: "Documento destino visible en el selector del modal."
+      - valor: "FACTURA ELECTRÓNICA"
+        significado: "Documento destino alternativo visible en el selector del modal."
+  - nombre: "SERIE"
+    bloque_ui: modal_canjear_venta
+    tipo: selector
+    obligatorio: true
+    descripcion: "Serie del nuevo comprobante. En el ejemplo visible aparece BG01."
+  - nombre: "FECHA EMISIÓN"
+    bloque_ui: modal_canjear_venta
+    tipo: fecha
+    obligatorio: true
+    descripcion: "Fecha asignada al nuevo comprobante desde el modal."
+  - nombre: "DNI o RUC"
+    bloque_ui: modal_canjear_venta
+    tipo: texto
+    obligatorio: true
+    descripcion: "Dato de identificación del cliente, acompañado por un botón de refresco."
+  - nombre: "Nombre o razon social"
+    bloque_ui: modal_canjear_venta
+    tipo: texto
+    obligatorio: false
+    descripcion: "Campo donde se visualiza el nombre del cliente encontrado."
+  - nombre: "Dirección"
+    bloque_ui: modal_canjear_venta
+    tipo: texto
+    obligatorio: false
+    descripcion: "Campo visible para la dirección del cliente."
+  - nombre: "FORMATO"
+    bloque_ui: modal_canjear_venta
+    tipo: selector
+    obligatorio: true
+    descripcion: "Formato visible del comprobante a generar."
+    opciones:
+      - valor: "A4"
+        significado: "Formato seleccionado en el ejemplo visible."
+      - valor: "TICKET"
+        significado: "Formato alternativo visible en el selector."
+
+acciones:
+  - nombre: "Buscar"
+    bloque_ui: panel_busqueda
+    descripcion: "Ejecuta la búsqueda con los filtros visibles."
+    resultado_esperado: "Se muestra la tabla con comprobantes y paginación."
+  - nombre: "Abrir opciones del registro"
+    bloque_ui: tabla_resultados
+    descripcion: "Despliega el menú contextual del comprobante seleccionado."
+    resultado_esperado: "Se hacen visibles las acciones Ver documento, Ver comandas, Anular venta y Canjear ticket."
+  - nombre: "Canjear ticket"
+    bloque_ui: tabla_resultados
+    descripcion: "Abre el modal de canje para el registro elegido."
+    resultado_esperado: "Se muestra el modal Canjear Venta sobre la tabla."
+  - nombre: "Refrescar DNI o RUC"
+    bloque_ui: modal_canjear_venta
+    descripcion: "Acción visible junto al campo DNI o RUC."
+    resultado_esperado: "Permite volver a consultar o actualizar los datos visibles del cliente."
+  - nombre: "CANJEAR"
+    bloque_ui: modal_canjear_venta
+    descripcion: "Confirma la generación del nuevo comprobante."
+    resultado_esperado: "Se abre la vista del comprobante generado y aparecen avisos verdes."
+  - nombre: "CERRAR"
+    bloque_ui: modal_canjear_venta
+    descripcion: "Cierra el modal sin continuar con el canje."
+    resultado_esperado: "El modal desaparece y vuelve la tabla de resultados."
+
+reglas:
+  - id: regla_01
+    descripcion: "El selector DOCUMENTO del modal solo muestra BOLETA ELECTRÓNICA y FACTURA ELECTRÓNICA."
+    aplica_a:
+      - "DOCUMENTO"
+    origen: interfaz
+  - id: regla_02
+    descripcion: "El aviso informativo visible en el modal indica que el canje puede realizarse con una fecha máxima de 3 días antes de la fecha actual."
+    aplica_a:
+      - "FECHA EMISIÓN"
+    origen: interfaz
+  - id: regla_03
+    descripcion: "La confirmación visible del flujo incluye la apertura de un comprobante en visor PDF y avisos verdes de estado."
+    aplica_a:
+      - "CANJEAR"
+    origen: interfaz
+
+mensajes_o_resultados:
+  - nombre: "Comprobante encontrado"
+    descripcion: "Aviso verde visible al finalizar el canje."
+  - nombre: "Boleta en proceso de envío"
+    descripcion: "Aviso verde visible en el ejemplo que indica que la Boleta número BG01-19 se encuentra en proceso de envío."
+  - nombre: "Ventana Comprobante"
+    descripcion: "Resultado final visible con vista previa PDF del comprobante generado."

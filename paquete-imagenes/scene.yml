@@ -1,0 +1,167 @@
+version: 1
+
+documento:
+  id: pa_admin_1_8_canjear_ticket_boleta_factura
+  titulo: "1.8 Cómo canjear un ticket a boleta o factura en Panel Administrativo"
+  modulo: "Panel Administrativo"
+  pantalla: "Búsqueda y gestión de comprobantes"
+  objetivo: "Canjear un ticket a boleta electrónica o factura electrónica desde la búsqueda de comprobantes."
+
+configuracion_srt:
+  tono: operativo_guiado
+  voz: formal_clara
+  incluir_contexto_visual: true
+  incluir_opciones_relevantes: true
+  incluir_validaciones: true
+  no_inferir_elementos_no_visibles: true
+
+escenas:
+  - id: escena_01
+    tipo: navegacion
+    titulo: "Ingreso a búsqueda de comprobantes"
+    objetivo_visual: "Mostrar la ruta de acceso hasta la pantalla donde se realiza el canje."
+    bloque_ui: menu_lateral
+    foco_visual:
+      - "Ventas y Documentos"
+      - "Búsqueda y gestión de comprobantes"
+      - "Búsqueda por filtros"
+    pasos_referenciados:
+      - 1
+      - 2
+    narracion_base:
+      - "Ingresar a Ventas y Documentos."
+      - "Abrir Búsqueda y gestión de comprobantes y mantener activa la pestaña Búsqueda por filtros."
+    explicaciones:
+      - "La pantalla reúne los filtros y el listado desde donde se abre el canje."
+    validaciones:
+      - "No mostrar rutas alternativas ni otros módulos del menú lateral."
+    notas:
+      - "Mantener el foco en la ruta resaltada y no narrar secciones del panel que no participan en el flujo."
+
+  - id: escena_02
+    tipo: filtros
+    titulo: "Definición de filtros de búsqueda"
+    objetivo_visual: "Enseñar los campos visibles que se usan para ubicar el ticket."
+    bloque_ui: panel_busqueda
+    foco_visual:
+      - "Origen"
+      - "Documento"
+      - "Fecha inicio"
+      - "Fecha fin"
+      - "Estado"
+      - "Datos por página"
+      - "Buscar"
+    pasos_referenciados:
+      - 3
+      - 4
+    narracion_base:
+      - "Definir los filtros visibles para localizar el ticket."
+      - "Completar Origen, Documento, el rango de fechas y Estado."
+      - "Si hace falta, ajustar Datos por página y ejecutar la búsqueda con Buscar."
+    explicaciones:
+      - "Las capturas muestran opciones visibles para Origen, Documento, Estado y Datos por página."
+    validaciones:
+      - "No fijar una combinación única de filtros cuando la interfaz muestra varias opciones visibles."
+    notas:
+      - "Evitar narrar la pestaña Búsqueda individual porque no se usa en este flujo."
+
+  - id: escena_03
+    tipo: seleccion_resultado
+    titulo: "Selección del ticket en la tabla"
+    objetivo_visual: "Ubicar el registro correcto y abrir la acción de canje."
+    bloque_ui: tabla_resultados
+    foco_visual:
+      - "Tabla de comprobantes"
+      - "Opciones"
+      - "Canjear ticket"
+    pasos_referenciados:
+      - 5
+      - 6
+    narracion_base:
+      - "Ubicar el ticket dentro de la tabla de resultados."
+      - "En la columna Opciones, abrir el menú del registro y seleccionar Canjear ticket."
+    explicaciones:
+      - "El menú contextual visible también muestra Ver documento, Ver comandas y Anular venta."
+    validaciones:
+      - "Confirmar que la narración solo mencione acciones visibles en el menú desplegado."
+    notas:
+      - "No describir columnas de la tabla que no sean necesarias para reconocer el registro."
+
+  - id: escena_04
+    tipo: formulario_modal
+    titulo: "Definición del documento destino"
+    objetivo_visual: "Mostrar la parte superior del modal Canjear Venta."
+    bloque_ui: modal_canjear_venta
+    foco_visual:
+      - "DOCUMENTO"
+      - "BOLETA ELECTRÓNICA"
+      - "FACTURA ELECTRÓNICA"
+      - "SERIE"
+      - "FECHA EMISIÓN"
+    pasos_referenciados:
+      - 7
+      - 8
+    narracion_base:
+      - "En Canjear Venta, elegir el documento destino."
+      - "Seleccionar BOLETA ELECTRÓNICA o FACTURA ELECTRÓNICA."
+      - "Revisar la serie visible y la fecha de emisión antes de continuar."
+    explicaciones:
+      - "En el ejemplo visible, al elegir boleta se muestra la serie BG01."
+    validaciones:
+      - "El selector DOCUMENTO del modal solo muestra dos opciones visibles."
+    notas:
+      - "No inventar series adicionales ni reglas no visibles sobre correlativos."
+
+  - id: escena_05
+    tipo: formulario_modal
+    titulo: "Datos del cliente y formato"
+    objetivo_visual: "Completar la parte final del modal antes de confirmar el canje."
+    bloque_ui: modal_canjear_venta
+    foco_visual:
+      - "DNI o RUC"
+      - "Nombre o razon social"
+      - "Dirección"
+      - "FORMATO"
+      - "CANJEAR"
+    pasos_referenciados:
+      - 9
+      - 10
+    narracion_base:
+      - "Ingresar o refrescar el DNI o RUC del cliente."
+      - "Verificar Nombre o razón social y Dirección."
+      - "Elegir el formato visible, A4 o TICKET, y confirmar con CANJEAR."
+    explicaciones:
+      - "El modal muestra un aviso informativo debajo de los campos antes de confirmar."
+    validaciones:
+      - "La nota visible indica que el canje puede hacerse con una fecha máxima de tres días antes de la fecha actual."
+    notas:
+      - "No atribuir comportamientos del botón de refresco fuera de la actualización visible de datos."
+
+  - id: escena_06
+    tipo: resultado
+    titulo: "Comprobante generado"
+    objetivo_visual: "Mostrar la evidencia visual del resultado final."
+    bloque_ui: visor_comprobante
+    foco_visual:
+      - "Comprobante"
+      - "pdf"
+      - "Comprobante encontrado"
+      - "La Boleta número BG01-19, se encuentra en proceso de envío."
+    pasos_referenciados:
+      - 11
+    narracion_base:
+      - "Verificar que se abra la ventana Comprobante con la vista previa del PDF."
+      - "Confirmar los avisos verdes que indican que el comprobante fue encontrado y que el envío está en proceso en el ejemplo mostrado."
+    explicaciones:
+      - "El resultado visible permite revisar el documento generado inmediatamente después del canje."
+    validaciones:
+      - "No describir estados posteriores que no se vean en la captura final."
+    notas:
+      - "Mantener el foco en el visor y en los avisos de confirmación."
+
+qa:
+  verificar:
+    - "Cada escena debe mapear a un bloque visible de la interfaz."
+    - "Las narraciones deben limitarse a etiquetas y resultados que aparecen en las capturas."
+    - "Los pasos referenciados deben corresponder al orden del flujo visible."
+    - "Las validaciones deben provenir de los selectores, avisos y resultados mostrados en las imágenes."

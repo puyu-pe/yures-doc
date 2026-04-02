@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:04,200
+En este flujo veremos cómo canjear
+un ticket por una boleta o factura.
+
+2
+00:00:04,200 --> 00:00:08,200
+Ingrese a Ventas y Documentos
+y abra Búsqueda y gestión de comprobantes.
+
+3
+00:00:08,200 --> 00:00:12,300
+Esta pantalla concentra la búsqueda,
+revisión y gestión de comprobantes.
+
+4
+00:00:12,300 --> 00:00:16,700
+Busque el ticket con Búsqueda por filtros
+o con Búsqueda individual por serie y correlativo.
+
+5
+00:00:16,700 --> 00:00:21,100
+Si usa filtros, complete Origen, Documento,
+fechas y Estado antes de pulsar Buscar.
+
+6
+00:00:21,100 --> 00:00:24,300
+El campo Documento se habilita
+después de elegir el Origen.
+
+7
+00:00:24,300 --> 00:00:27,500
+En la tabla de resultados,
+ubique la fila del TICKET.
+
+8
+00:00:27,500 --> 00:00:30,800
+En Opciones, seleccione
+Canjear ticket.
+
+9
+00:00:30,800 --> 00:00:34,600
+Esta acción solo aparece
+para tickets vigentes, no anulados.
+
+10
+00:00:34,600 --> 00:00:38,200
+En Canjear Venta, seleccione
+el documento de destino.
+
+11
+00:00:38,200 --> 00:00:42,200
+Luego elija la serie habilitada
+y revise la FECHA EMISIÓN.
+
+12
+00:00:42,200 --> 00:00:45,400
+El correlativo del nuevo comprobante
+se obtiene desde la serie elegida.
+
+13
+00:00:45,400 --> 00:00:48,900
+La fecha de emisión no puede ser
+anterior a más de 3 días desde hoy.
+
+14
+00:00:48,900 --> 00:00:52,400
+Complete o actualice
+el DNI o RUC del cliente.
+
+15
+00:00:52,400 --> 00:00:56,200
+Revise Nombre o razon social
+y Dirección antes de continuar.
+
+16
+00:00:56,200 --> 00:01:00,600
+Si va a emitir Factura, use un RUC
+de 11 dígitos y complete la razón social.
+
+17
+00:01:00,600 --> 00:01:04,300
+Elija el FORMATO del nuevo comprobante
+y pulse CANJEAR.
+
+18
+00:01:04,300 --> 00:01:08,100
+Si falta un dato obligatorio,
+el formulario resaltará el campo.
+
+19
+00:01:08,100 --> 00:01:11,500
+Durante el proceso,
+el botón cambia a CANJEANDO.
+
+20
+00:01:11,500 --> 00:01:15,800
+Al finalizar, el sistema genera
+el nuevo comprobante.
+
+21
+00:01:15,800 --> 00:01:20,400
+Luego abre la vista de impresión
+y el ticket original queda anulado.

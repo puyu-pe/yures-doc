@@ -1,0 +1,155 @@
+version: 1
+
+documento:
+  id: panel_administrativo_1_8_canjear_ticket_boleta_factura
+  titulo: "1.8 Cómo canjear un ticket a boleta o factura en Panel Administrativo"
+  modulo: "Ventas y Documentos"
+  pantalla: "Búsqueda y gestión de comprobantes"
+  objetivo: "Emitir una boleta electrónica o factura electrónica a partir de un ticket válido"
+
+configuracion_srt:
+  tono: operativo_guiado
+  voz: formal_clara
+  incluir_contexto_visual: true
+  incluir_opciones_relevantes: true
+  incluir_validaciones: true
+  no_inferir_elementos_no_visibles: true
+
+escenas:
+  - id: escena_01
+    tipo: navegacion
+    titulo: "Ingreso a Búsqueda y gestión de comprobantes"
+    objetivo_visual: "Mostrar la ruta desde Ventas y Documentos hasta la pantalla de búsqueda"
+    bloque_ui: menu_ventas_documentos
+    foco_visual:
+      - "Ventas y Documentos"
+      - "Búsqueda y gestión de comprobantes"
+    pasos_referenciados:
+      - 1
+    narracion_base:
+      - "En el Panel Administrativo, ingresar a Ventas y Documentos."
+      - "Luego abrir Búsqueda y gestión de comprobantes."
+    explicaciones:
+      - "La captura muestra esta ruta en el menú lateral."
+    validaciones:
+      - "No narrar otras entradas del menú lateral."
+    notas:
+      - "Mantener el foco solo en la ruta que lleva a la pantalla objetivo."
+  - id: escena_02
+    tipo: filtros
+    titulo: "Filtrar tickets del panel operativo"
+    objetivo_visual: "Mostrar cómo preparar la búsqueda para encontrar el ticket a canjear"
+    bloque_ui: formulario_filtros
+    foco_visual:
+      - "Búsqueda por filtros"
+      - "Origen"
+      - "Documento"
+      - "Fecha inicio"
+      - "Fecha fin"
+      - "Estado"
+      - "Datos por página"
+      - "Buscar"
+    pasos_referenciados:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+    narracion_base:
+      - "Mantener activa la pestaña Búsqueda por filtros."
+      - "En Origen, seleccionar P. Operativo."
+      - "En Documento, seleccionar TICKET."
+      - "Definir el rango de fechas, el estado y la cantidad de datos por página."
+      - "Finalmente, hacer clic en Buscar."
+    explicaciones:
+      - "Las capturas confirman que el filtro Documento muestra opciones como TODO, TICKET, BOLETA ELECTRÓNICA y FACTURA ELECTRÓNICA."
+    validaciones:
+      - "Usar TICKET como filtro para encontrar el comprobante origen del canje."
+    notas:
+      - "No describir la pestaña de búsqueda individual porque no se usa en el flujo mostrado."
+  - id: escena_03
+    tipo: seleccion_resultado
+    titulo: "Abrir la acción Canjear ticket"
+    objetivo_visual: "Ubicar el ticket en la tabla y abrir el menú de acciones correcto"
+    bloque_ui: tabla_comprobantes
+    foco_visual:
+      - "Listado de comprobantes"
+      - "Opciones"
+      - "Canjear ticket"
+    pasos_referenciados:
+      - 7
+      - 8
+    narracion_base:
+      - "En la tabla de resultados, ubicar el ticket correcto."
+      - "Abrir la lista Seleccionar ... de esa fila."
+      - "Elegir la opción Canjear ticket."
+    explicaciones:
+      - "La opción se muestra dentro de la columna Opciones."
+    validaciones:
+      - "El flujo solo aplica cuando la fila corresponde a un TICKET válido."
+    notas:
+      - "No narrar otras acciones del selector si no se usan."
+  - id: escena_04
+    tipo: formulario_modal
+    titulo: "Completar el modal Canjear Venta"
+    objetivo_visual: "Configurar el nuevo comprobante y validar los datos del cliente"
+    bloque_ui: modal_canjear_venta
+    foco_visual:
+      - "DOCUMENTO"
+      - "SERIE"
+      - "FECHA EMISIÓN"
+      - "DNI o RUC"
+      - "Nombre o razon social"
+      - "Dirección"
+      - "FORMATO"
+      - "CANJEAR"
+    pasos_referenciados:
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+    narracion_base:
+      - "En Canjear Venta, seleccionar el nuevo DOCUMENTO."
+      - "Luego elegir la SERIE habilitada."
+      - "Revisar la FECHA EMISIÓN."
+      - "Completar o actualizar DNI o RUC, Nombre o razon social y Dirección."
+      - "Elegir el FORMATO del comprobante."
+      - "Cuando todo esté correcto, hacer clic en CANJEAR."
+    explicaciones:
+      - "Las capturas muestran como opciones visibles BOLETA ELECTRÓNICA y FACTURA ELECTRÓNICA."
+      - "El mensaje informativo del modal indica que el correlativo se obtiene automáticamente del sistema."
+    validaciones:
+      - "DOCUMENTO y SERIE son obligatorios."
+      - "La FECHA EMISIÓN no puede tener más de 3 días desde hoy."
+      - "Para FACTURA ELECTRÓNICA, el RUC debe tener 11 dígitos y la razón social debe quedar completa."
+    notas:
+      - "No mencionar campos o botones no visibles fuera del modal."
+  - id: escena_05
+    tipo: resultado
+    titulo: "Verificar el nuevo comprobante"
+    objetivo_visual: "Mostrar la apertura del visor final y la confirmación del resultado"
+    bloque_ui: modal_comprobante
+    foco_visual:
+      - "Comprobante"
+      - "visor PDF"
+      - "Comprobante encontrado"
+    pasos_referenciados:
+      - 15
+    narracion_base:
+      - "Después del canje, se abre el modal Comprobante con la vista previa del nuevo documento."
+      - "Verificar que el PDF cargue correctamente."
+    explicaciones:
+      - "En el caso mostrado también aparece un aviso indicando que la boleta está en proceso de envío."
+    validaciones:
+      - "El resultado esperado es la apertura del visor del nuevo comprobante."
+    notas:
+      - "No describir herramientas del visor PDF que no formen parte del objetivo del canje."
+
+qa:
+  verificar:
+    - "Cada escena debe usar un bloque_ui definido en metadata.yml."
+    - "Cada pasos_referenciados debe existir en pasos_base."
+    - "La narración debe limitarse a los controles visibles en las capturas o confirmados por código."
+    - "Las validaciones del canje deben provenir de la interfaz o del backend confirmado."

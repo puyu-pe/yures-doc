@@ -173,3 +173,11 @@ nav:
           - '9.1 Registrar límite de ítems: editar totales y Guardar': panel-operativo/fichas/paquete-9/9.1-registrar-limite-de-items-editar-totales-y-guardar.md
           - '9.2 Revisar pestaña Reporte (si se usa para control diario)': panel-operativo/fichas/paquete-9/9.2-revisar-pestana-reporte-si-se-usa-para-control-diario.md
           - '9.3 Caso práctico: qué hacer cuando un ítem llega a su límite (evitar reclamos en cocina)': panel-operativo/fichas/paquete-9/9.3-caso-practico-que-hacer-cuando-un-item-llega-a-su-limite-evitar-reclamos-en-cocina.md
+  - Paquetes indexados:
+      - Inicio: paquetes-indexados/index.md
+      - paquete-base-codigo:
+          - "1.8 Cómo canjear un ticket a boleta o factura en Panel Administrativo": paquetes-indexados/paquete-base-codigo/1.8-canjear-un-ticket-a-boleta-o-factura.md
+      - paquete-imagenes:
+          - "1.8 Cómo canjear un ticket a boleta o factura en Panel Administrativo": paquetes-indexados/paquete-imagenes/1.8-canjear-un-ticket-a-boleta-o-factura.md
+      - paquete-hibrido:
+          - "1.8 Cómo canjear un ticket a boleta o factura": paquetes-indexados/paquete-hibrido/1.8-canjear-un-ticket-a-boleta-o-factura.md
