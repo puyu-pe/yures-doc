@@ -1,0 +1,399 @@
+version: 1
+coverage_mode: strict
+pages:
+  - path: docs/index.md
+    doc_id: restore-index
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-0/0.0-ingresar-al-login-del-panel-administrativo-desde-el-escritorio.md
+    doc_id: restore-panel-administrativo-fichas-paquete-0-0-0-ingresar-al-login-del-panel-administrativo-desde-el-escritorio
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-0/0.1-iniciar-sesion.md
+    doc_id: restore-panel-administrativo-fichas-paquete-0-0-1-iniciar-sesion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-0/0.2-ubicarse-en-el-panel-administrativo.md
+    doc_id: restore-panel-administrativo-fichas-paquete-0-0-2-ubicarse-en-el-panel-administrativo
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-0/0.3-interpretar-comunicados-novedades-y-alertas-al-ingresar-a-yures.md
+    doc_id: restore-panel-administrativo-fichas-paquete-0-0-3-interpretar-comunicados-novedades-y-alertas-al-ingresar-a-yures
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-0/0.4-cerrar-sesion-correctamente.md
+    doc_id: restore-panel-administrativo-fichas-paquete-0-0-4-cerrar-sesion-correctamente
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.0-como-hacer-una-venta-general.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-0-como-hacer-una-venta-general
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.1-leer-el-reporte-de-cierre-de-caja.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-1-leer-el-reporte-de-cierre-de-caja
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.10-como-registrar-ventas-con-detraccion-en-panel-administrativo.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-10-como-registrar-ventas-con-detraccion-en-panel-administrativo
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.2-diagnosticar-cuando-no-cuadra-caja.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-2-diagnosticar-cuando-no-cuadra-caja
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.3-conciliar-el-reporte-de-medios-de-pago-por-caja-y-fechas.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-3-conciliar-el-reporte-de-medios-de-pago-por-caja-y-fechas
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.4-revisar-turnos-de-auditoria.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-4-revisar-turnos-de-auditoria
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.5-buscar-comprobantes-por-fecha-y-filtros.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-5-buscar-comprobantes-por-fecha-y-filtros
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.6-buscar-un-comprobante-por-numero.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-6-buscar-un-comprobante-por-numero
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.7-anular-una-venta-en-yures-con-justificacion.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-7-anular-una-venta-en-yures-con-justificacion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.8-canjear-un-ticket-a-boleta-o-factura.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-8-canjear-un-ticket-a-boleta-o-factura
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-1/1.9-usar-el-historial-de-ventas-y-exportar-reportes.md
+    doc_id: restore-panel-administrativo-fichas-paquete-1-1-9-usar-el-historial-de-ventas-y-exportar-reportes
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-2/2.1-leer-el-resumen-gerencial-de-yures.md
+    doc_id: restore-panel-administrativo-fichas-paquete-2-2-1-leer-el-resumen-gerencial-de-yures
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-2/2.2-interpretar-la-analitica-de-ventas-por-ano-y-mes.md
+    doc_id: restore-panel-administrativo-fichas-paquete-2-2-2-interpretar-la-analitica-de-ventas-por-ano-y-mes
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-2/2.3-analizar-ventas-por-categoria-o-producto.md
+    doc_id: restore-panel-administrativo-fichas-paquete-2-2-3-analizar-ventas-por-categoria-o-producto
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-2/2.4-revisar-analisis-por-canal-o-tipo-de-venta.md
+    doc_id: restore-panel-administrativo-fichas-paquete-2-2-4-revisar-analisis-por-canal-o-tipo-de-venta
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-2/2.5-revisar-analisis-por-area-de-atencion.md
+    doc_id: restore-panel-administrativo-fichas-paquete-2-2-5-revisar-analisis-por-area-de-atencion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-3/3.1-usar-la-trazabilidad-de-operacion.md
+    doc_id: restore-panel-administrativo-fichas-paquete-3-3-1-usar-la-trazabilidad-de-operacion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-3/3.2-usar-comandas-y-kitchen-tracking.md
+    doc_id: restore-panel-administrativo-fichas-paquete-3-3-2-usar-comandas-y-kitchen-tracking
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-3/3.3-investigar-anulaciones-y-canjes-cruzando-operacion-y-ventas.md
+    doc_id: restore-panel-administrativo-fichas-paquete-3-3-3-investigar-anulaciones-y-canjes-cruzando-operacion-y-ventas
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-4/4.1-gestionar-usuarios-en-yures-alta-edicion-y-desactivacion.md
+    doc_id: restore-panel-administrativo-fichas-paquete-4-4-1-gestionar-usuarios-en-yures-alta-edicion-y-desactivacion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-4/4.2-politica-de-accesos-en-yures-acciones-criticas-y-restriccion.md
+    doc_id: restore-panel-administrativo-fichas-paquete-4-4-2-politica-de-accesos-en-yures-acciones-criticas-y-restriccion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-4/4.3-configurar-parametros-generales.md
+    doc_id: restore-panel-administrativo-fichas-paquete-4-4-3-configurar-parametros-generales
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-4/4.4-configurar-documentos-series-y-correlativos.md
+    doc_id: restore-panel-administrativo-fichas-paquete-4-4-4-configurar-documentos-series-y-correlativos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-4/4.5-configurar-impresion-por-documento.md
+    doc_id: restore-panel-administrativo-fichas-paquete-4-4-5-configurar-impresion-por-documento
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-4/4.6-configurar-la-estructura-operativa-terminales-mesas-y-pisos.md
+    doc_id: restore-panel-administrativo-fichas-paquete-4-4-6-configurar-la-estructura-operativa-terminales-mesas-y-pisos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-4/4.7-configurar-la-identidad-visual.md
+    doc_id: restore-panel-administrativo-fichas-paquete-4-4-7-configurar-la-identidad-visual
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-5/5.1-crear-items-de-carta.md
+    doc_id: restore-panel-administrativo-fichas-paquete-5-5-1-crear-items-de-carta
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-5/5.2-configurar-categorias-tipos-y-unidades.md
+    doc_id: restore-panel-administrativo-fichas-paquete-5-5-2-configurar-categorias-tipos-y-unidades
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-5/5.3-ordenar-y-controlar-la-visibilidad-del-catalogo.md
+    doc_id: restore-panel-administrativo-fichas-paquete-5-5-3-ordenar-y-controlar-la-visibilidad-del-catalogo
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-5/5.4-configurar-disponibilidad-por-terminal.md
+    doc_id: restore-panel-administrativo-fichas-paquete-5-5-4-configurar-disponibilidad-por-terminal
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-5/5.5-configurar-presentaciones-equivalencias.md
+    doc_id: restore-panel-administrativo-fichas-paquete-5-5-5-configurar-presentaciones-equivalencias
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-5/5.6-configurar-combos.md
+    doc_id: restore-panel-administrativo-fichas-paquete-5-5-6-configurar-combos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-5/5.7-usar-instrucciones-de-cocina.md
+    doc_id: restore-panel-administrativo-fichas-paquete-5-5-7-usar-instrucciones-de-cocina
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-5/5.8-configurar-motivos-de-anulacion.md
+    doc_id: restore-panel-administrativo-fichas-paquete-5-5-8-configurar-motivos-de-anulacion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-5/5.9-leer-el-reporte-de-rotacion-de-platos.md
+    doc_id: restore-panel-administrativo-fichas-paquete-5-5-9-leer-el-reporte-de-rotacion-de-platos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-6/6.1-gestionar-almacenes.md
+    doc_id: restore-panel-administrativo-fichas-paquete-6-6-1-gestionar-almacenes
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-6/6.10-registrar-produccion-lotes-y-mermas.md
+    doc_id: restore-panel-administrativo-fichas-paquete-6-6-10-registrar-produccion-lotes-y-mermas
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-6/6.2-consultar-stock-por-almacen.md
+    doc_id: restore-panel-administrativo-fichas-paquete-6-6-2-consultar-stock-por-almacen
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-6/6.3-registrar-el-inventario-inicial-de-un-producto.md
+    doc_id: restore-panel-administrativo-fichas-paquete-6-6-3-registrar-el-inventario-inicial-de-un-producto
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-6/6.4-realizar-ajustes-de-inventario-ingresos-y-salidas.md
+    doc_id: restore-panel-administrativo-fichas-paquete-6-6-4-realizar-ajustes-de-inventario-ingresos-y-salidas
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-6/6.5-generar-el-reporte-de-movimientos-de-productos.md
+    doc_id: restore-panel-administrativo-fichas-paquete-6-6-5-generar-el-reporte-de-movimientos-de-productos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-6/6.6-transferir-stock-entre-almacenes.md
+    doc_id: restore-panel-administrativo-fichas-paquete-6-6-6-transferir-stock-entre-almacenes
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-6/6.7-revisar-el-kardex.md
+    doc_id: restore-panel-administrativo-fichas-paquete-6-6-7-revisar-el-kardex
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-6/6.8-registrar-recetas-y-costeo.md
+    doc_id: restore-panel-administrativo-fichas-paquete-6-6-8-registrar-recetas-y-costeo
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-6/6.9-revisar-la-rotacion-de-recetas.md
+    doc_id: restore-panel-administrativo-fichas-paquete-6-6-9-revisar-la-rotacion-de-recetas
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-7/7.1-gestionar-proveedores.md
+    doc_id: restore-panel-administrativo-fichas-paquete-7-7-1-gestionar-proveedores
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-7/7.10-revisar-compras-por-cuenta-contable.md
+    doc_id: restore-panel-administrativo-fichas-paquete-7-7-10-revisar-compras-por-cuenta-contable
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-7/7.2-registrar-una-orden-de-compra.md
+    doc_id: restore-panel-administrativo-fichas-paquete-7-7-2-registrar-una-orden-de-compra
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-7/7.3-registrar-un-pedido-de-compra.md
+    doc_id: restore-panel-administrativo-fichas-paquete-7-7-3-registrar-un-pedido-de-compra
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-7/7.4-aprobar-o-desaprobar-pedidos-de-compra.md
+    doc_id: restore-panel-administrativo-fichas-paquete-7-7-4-aprobar-o-desaprobar-pedidos-de-compra
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-7/7.5-generar-reportes-de-pedidos-de-compra.md
+    doc_id: restore-panel-administrativo-fichas-paquete-7-7-5-generar-reportes-de-pedidos-de-compra
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-7/7.6-registrar-una-orden-de-compra-desde-un-pedido.md
+    doc_id: restore-panel-administrativo-fichas-paquete-7-7-6-registrar-una-orden-de-compra-desde-un-pedido
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-7/7.7-generar-reportes-de-ordenes-de-compra.md
+    doc_id: restore-panel-administrativo-fichas-paquete-7-7-7-generar-reportes-de-ordenes-de-compra
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-7/7.8-verificar-la-relacion-pedido-orden-de-compra.md
+    doc_id: restore-panel-administrativo-fichas-paquete-7-7-8-verificar-la-relacion-pedido-orden-de-compra
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-7/7.9-analizar-productos-comprados.md
+    doc_id: restore-panel-administrativo-fichas-paquete-7-7-9-analizar-productos-comprados
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-8/8.1-registrar-ingresos-administrativos.md
+    doc_id: restore-panel-administrativo-fichas-paquete-8-8-1-registrar-ingresos-administrativos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-8/8.2-registrar-egresos-administrativos.md
+    doc_id: restore-panel-administrativo-fichas-paquete-8-8-2-registrar-egresos-administrativos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-8/8.3-aprobar-movimientos-y-validaciones.md
+    doc_id: restore-panel-administrativo-fichas-paquete-8-8-3-aprobar-movimientos-y-validaciones
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-8/8.4-gestionar-y-usar-cuentas-contables-en-tesoreria.md
+    doc_id: restore-panel-administrativo-fichas-paquete-8-8-4-gestionar-y-usar-cuentas-contables-en-tesoreria
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-8/8.5-configurar-tipos-de-transacciones.md
+    doc_id: restore-panel-administrativo-fichas-paquete-8-8-5-configurar-tipos-de-transacciones
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-8/8.6-analizar-gastos-de-administracion.md
+    doc_id: restore-panel-administrativo-fichas-paquete-8-8-6-analizar-gastos-de-administracion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-9/9.1-gestionar-clientes.md
+    doc_id: restore-panel-administrativo-fichas-paquete-9-9-1-gestionar-clientes
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/fichas/paquete-9/9.2-revisar-ranking-de-clientes-por-consumo.md
+    doc_id: restore-panel-administrativo-fichas-paquete-9-9-2-revisar-ranking-de-clientes-por-consumo
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-administrativo/index.md
+    doc_id: restore-panel-administrativo-index
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-0/0.0-ingresar-al-panel-operativo.md
+    doc_id: restore-panel-operativo-fichas-paquete-0-0-0-ingresar-al-panel-operativo
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-0/0.1-ingresar-al-pos-diferencia-entre-punto-de-venta-y-supervisor.md
+    doc_id: restore-panel-operativo-fichas-paquete-0-0-1-ingresar-al-pos-diferencia-entre-punto-de-venta-y-supervisor
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-0/0.2-vista-de-mesas-croquis-cambio-de-piso-lectura-rapida-de-mesas.md
+    doc_id: restore-panel-operativo-fichas-paquete-0-0-2-vista-de-mesas-croquis-cambio-de-piso-lectura-rapida-de-mesas
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-0/0.3-canales-rapidos-calle-y-delivery-que-cambia-y-cuando-usarlo.md
+    doc_id: restore-panel-operativo-fichas-paquete-0-0-3-canales-rapidos-calle-y-delivery-que-cambia-y-cuando-usarlo
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-0/0.4-botones-base-barra-inferior-caja-busqueda-venta-egresos-ingresos-limite-para-que-sirve-cada-uno.md
+    doc_id: restore-panel-operativo-fichas-paquete-0-0-4-botones-base-barra-inferior-caja-busqueda-venta-egresos-ingresos-limite-para-que-sirve-cada-uno
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.1-seleccionar-mesa-y-tomar-pedido-agregar-items-por-categoria.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-1-seleccionar-mesa-y-tomar-pedido-agregar-items-por-categoria
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.10-enviar-a-cocina-que-confirma-que-si-se-envio.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-10-enviar-a-cocina-que-confirma-que-si-se-envio
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.11-precuenta-cuando-usarla-y-que-imprime.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-11-precuenta-cuando-usarla-y-que-imprime
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.12-cerrar-vs-liberar-mesa-diferencias-y-errores-tipicos.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-12-cerrar-vs-liberar-mesa-diferencias-y-errores-tipicos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.2-buscar-producto-por-nombre-o-codigo.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-2-buscar-producto-por-nombre-o-codigo
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.3-ajustar-cantidades-rapido-mas-y-quitar-item-con-x.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-3-ajustar-cantidades-rapido-mas-y-quitar-item-con-x
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.4-agregar-instruccion-para-cocina-mensaje-por-item.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-4-agregar-instruccion-para-cocina-mensaje-por-item
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.5-combos-completar-todas-las-opciones-antes-de-guardar-por-que-a-veces-no-deja-continuar.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-5-combos-completar-todas-las-opciones-antes-de-guardar-por-que-a-veces-no-deja-continuar
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.6-componentes-fijos-en-gris-que-vienen-incluidos-y-por-que-no-se-pueden-cambiar.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-6-componentes-fijos-en-gris-que-vienen-incluidos-y-por-que-no-se-pueden-cambiar
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.7-componentes-simples-elige-solo-uno-como-elegir-correctamente-y-evitar-errores.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-7-componentes-simples-elige-solo-uno-como-elegir-correctamente-y-evitar-errores
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.8-componentes-dinamicos-elige-varios-como-completar-la-cantidad-exacta-para-poder-guardar.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-8-componentes-dinamicos-elige-varios-como-completar-la-cantidad-exacta-para-poder-guardar
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-1/1.9-combo-mal-armado-por-que-no-deja-guardar-o-cocina-recibe-mal-el-pedido.md
+    doc_id: restore-panel-operativo-fichas-paquete-1-1-9-combo-mal-armado-por-que-no-deja-guardar-o-cocina-recibe-mal-el-pedido
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-2/2.1-abrir-liquidar-venta-que-significa-pendiente-vs-pagado.md
+    doc_id: restore-panel-operativo-fichas-paquete-2-2-1-abrir-liquidar-venta-que-significa-pendiente-vs-pagado
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-2/2.2-cobro-simple-efectivo-registrar-pago-mas-guardar-orden-correcto.md
+    doc_id: restore-panel-operativo-fichas-paquete-2-2-2-cobro-simple-efectivo-registrar-pago-mas-guardar-orden-correcto
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-2/2.3-cobro-tarjeta-yape-plin-transferencia-deposito-elegir-medio-correcto.md
+    doc_id: restore-panel-operativo-fichas-paquete-2-2-3-cobro-tarjeta-yape-plin-transferencia-deposito-elegir-medio-correcto
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-2/2.4-multi-pagos-combinar-dos-o-mas-medios-ej-yape-mas-efectivo.md
+    doc_id: restore-panel-operativo-fichas-paquete-2-2-4-multi-pagos-combinar-dos-o-mas-medios-ej-yape-mas-efectivo
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-2/2.5-recargo-y-descuento-cuando-se-usa-y-que-pasa-si-esta-restringido.md
+    doc_id: restore-panel-operativo-fichas-paquete-2-2-5-recargo-y-descuento-cuando-se-usa-y-que-pasa-si-esta-restringido
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-2/2.6-tipo-de-documento-ticket-boleta-electronica-factura-electronica-cuando-usar-cada-uno.md
+    doc_id: restore-panel-operativo-fichas-paquete-2-2-6-tipo-de-documento-ticket-boleta-electronica-factura-electronica-cuando-usar-cada-uno
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-2/2.7-datos-de-cliente-dni-ruc-razon-social-direccion-correo-celular-minimo-necesario-por-documento.md
+    doc_id: restore-panel-operativo-fichas-paquete-2-2-7-datos-de-cliente-dni-ruc-razon-social-direccion-correo-celular-minimo-necesario-por-documento
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-2/2.8-imprimir-reimprimir-desde-busqueda-de-venta-casos-tipicos-de-cliente.md
+    doc_id: restore-panel-operativo-fichas-paquete-2-2-8-imprimir-reimprimir-desde-busqueda-de-venta-casos-tipicos-de-cliente
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-3/3.1-dividir-cuenta-por-items-mover-de-items-pendientes-a-items-a-pagar.md
+    doc_id: restore-panel-operativo-fichas-paquete-3-3-1-dividir-cuenta-por-items-mover-de-items-pendientes-a-items-a-pagar
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-3/3.2-pagar-una-parte-y-dejar-el-resto-pendiente-como-continuar-sin-perder-control.md
+    doc_id: restore-panel-operativo-fichas-paquete-3-3-2-pagar-una-parte-y-dejar-el-resto-pendiente-como-continuar-sin-perder-control
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-3/3.3-buenas-practicas-dividir-antes-de-registrar-pagos.md
+    doc_id: restore-panel-operativo-fichas-paquete-3-3-3-buenas-practicas-dividir-antes-de-registrar-pagos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.1-pedido-no-llega-a-cocina-impresora-checklist-en-60-segundos.md
+    doc_id: restore-panel-operativo-fichas-paquete-4-4-1-pedido-no-llega-a-cocina-impresora-checklist-en-60-segundos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.10-combo-mal-armado-como-corregir-antes-de-enviar-a-cocina.md
+    doc_id: restore-panel-operativo-fichas-paquete-4-4-10-combo-mal-armado-como-corregir-antes-de-enviar-a-cocina
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.2-pedido-no-llega-a-cocina-impresora-causas-de-red-y-cambios-de-ip.md
+    doc_id: restore-panel-operativo-fichas-paquete-4-4-2-pedido-no-llega-a-cocina-impresora-causas-de-red-y-cambios-de-ip
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.3-kds-no-muestra-pedidos-checklist-rapido-caso-kds.md
+    doc_id: restore-panel-operativo-fichas-paquete-4-4-3-kds-no-muestra-pedidos-checklist-rapido-caso-kds
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.4-cobran-mal-como-corregir-antes-de-finalizar.md
+    doc_id: restore-panel-operativo-fichas-paquete-4-4-4-cobran-mal-como-corregir-antes-de-finalizar
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.5-pedido-duplicado-al-cambiar-de-mesa-explicacion-real.md
+    doc_id: restore-panel-operativo-fichas-paquete-4-4-5-pedido-duplicado-al-cambiar-de-mesa-explicacion-real
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.6-mover-a-mesa-vs-juntar-mesa-cuando-usar-cada-uno.md
+    doc_id: restore-panel-operativo-fichas-paquete-4-4-6-mover-a-mesa-vs-juntar-mesa-cuando-usar-cada-uno
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.7-deshacer-una-mesa-juntada-sin-perder-items.md
+    doc_id: restore-panel-operativo-fichas-paquete-4-4-7-deshacer-una-mesa-juntada-sin-perder-items
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.8-movimientos-de-mesa-s-auditar-que-paso-y-dejar-razon.md
+    doc_id: restore-panel-operativo-fichas-paquete-4-4-8-movimientos-de-mesa-s-auditar-que-paso-y-dejar-razon
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.9-liberar-mesa-cuando-si-y-cuando-no.md
+    doc_id: restore-panel-operativo-fichas-paquete-4-4-9-liberar-mesa-cuando-si-y-cuando-no
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-5/5.1-entrar-a-busqueda-venta-barra-inferior.md
+    doc_id: restore-panel-operativo-fichas-paquete-5-5-1-entrar-a-busqueda-venta-barra-inferior
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-5/5.2-buscar-documento-por-tipo-mas-serie-mas-correlativo-y-previsualizar.md
+    doc_id: restore-panel-operativo-fichas-paquete-5-5-2-buscar-documento-por-tipo-mas-serie-mas-correlativo-y-previsualizar
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-5/5.3-imprimir-desde-busqueda-casos-tipicos.md
+    doc_id: restore-panel-operativo-fichas-paquete-5-5-3-imprimir-desde-busqueda-casos-tipicos
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-5/5.4-canjear-desde-operativo-cuando-aplica-y-que-validar-antes.md
+    doc_id: restore-panel-operativo-fichas-paquete-5-5-4-canjear-desde-operativo-cuando-aplica-y-que-validar-antes
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-5/5.5-anular-desde-operativo-cuando-aplica-y-por-que-requiere-control.md
+    doc_id: restore-panel-operativo-fichas-paquete-5-5-5-anular-desde-operativo-cuando-aplica-y-por-que-requiere-control
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-5/5.6-ver-validar-documento-desde-busqueda-evitar-anular-canjear-el-documento-equivocado.md
+    doc_id: restore-panel-operativo-fichas-paquete-5-5-6-ver-validar-documento-desde-busqueda-evitar-anular-canjear-el-documento-equivocado
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-6/6.1-venta-en-mesa-croquis-seleccionar-mesa-tomar-pedido-enviar-precuenta-liquidar.md
+    doc_id: restore-panel-operativo-fichas-paquete-6-6-1-venta-en-mesa-croquis-seleccionar-mesa-tomar-pedido-enviar-precuenta-liquidar
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-6/6.2-venta-en-salon-lista-si-aplica-flujo-equivalente-al-croquis.md
+    doc_id: restore-panel-operativo-fichas-paquete-6-6-2-venta-en-salon-lista-si-aplica-flujo-equivalente-al-croquis
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-6/6.3-venta-calle-mostrador-rapido-pedido-directo-liquidacion.md
+    doc_id: restore-panel-operativo-fichas-paquete-6-6-3-venta-calle-mostrador-rapido-pedido-directo-liquidacion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-6/6.4-venta-delivery-creacion-de-pedido-control-de-entrega.md
+    doc_id: restore-panel-operativo-fichas-paquete-6-6-4-venta-delivery-creacion-de-pedido-control-de-entrega
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-6/6.5-botones-laterales-estado-y-entregas-que-resuelven-en-la-operacion.md
+    doc_id: restore-panel-operativo-fichas-paquete-6-6-5-botones-laterales-estado-y-entregas-que-resuelven-en-la-operacion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-7/7.1-entrar-como-supervisor-que-habilita-y-que-no.md
+    doc_id: restore-panel-operativo-fichas-paquete-7-7-1-entrar-como-supervisor-que-habilita-y-que-no
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-7/7.2-politica-operativa-recomendada-que-acciones-deben-ser-solo-de-supervisor-anular-canjear-descuentos-liberar.md
+    doc_id: restore-panel-operativo-fichas-paquete-7-7-2-politica-operativa-recomendada-que-acciones-deben-ser-solo-de-supervisor-anular-canjear-descuentos-liberar
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-7/7.3-resolver-mesa-pegada-pedido-en-dos-mesas-auditar-y-corregir-sin-perder-consumo.md
+    doc_id: restore-panel-operativo-fichas-paquete-7-7-3-resolver-mesa-pegada-pedido-en-dos-mesas-auditar-y-corregir-sin-perder-consumo
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-7/7.4-cierre-operativo-rapido-checklist-de-supervisor-antes-de-entregar-caja.md
+    doc_id: restore-panel-operativo-fichas-paquete-7-7-4-cierre-operativo-rapido-checklist-de-supervisor-antes-de-entregar-caja
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-8/8.1-impresion-de-ticket-en-caja-validaciones-minimas.md
+    doc_id: restore-panel-operativo-fichas-paquete-8-8-1-impresion-de-ticket-en-caja-validaciones-minimas
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-8/8.2-impresion-de-comanda-a-cocina-impresora-asignada.md
+    doc_id: restore-panel-operativo-fichas-paquete-8-8-2-impresion-de-comanda-a-cocina-impresora-asignada
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-8/8.3-precuenta-desde-celular-tablet-android-con-ticketera-bluetooth.md
+    doc_id: restore-panel-operativo-fichas-paquete-8-8-3-precuenta-desde-celular-tablet-android-con-ticketera-bluetooth
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-8/8.4-puka-http-que-es-como-saber-si-esta-activo-y-por-que-afecta-la-impresion.md
+    doc_id: restore-panel-operativo-fichas-paquete-8-8-4-puka-http-que-es-como-saber-si-esta-activo-y-por-que-afecta-la-impresion
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-8/8.5-buenas-practicas-de-red-evitar-que-el-pc-servidor-cambie-de-ip-router-switch-wi-fi.md
+    doc_id: restore-panel-operativo-fichas-paquete-8-8-5-buenas-practicas-de-red-evitar-que-el-pc-servidor-cambie-de-ip-router-switch-wi-fi
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-9/9.1-registrar-limite-de-items-editar-totales-y-guardar.md
+    doc_id: restore-panel-operativo-fichas-paquete-9-9-1-registrar-limite-de-items-editar-totales-y-guardar
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-9/9.2-revisar-pestana-reporte-si-se-usa-para-control-diario.md
+    doc_id: restore-panel-operativo-fichas-paquete-9-9-2-revisar-pestana-reporte-si-se-usa-para-control-diario
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-9/9.3-caso-practico-que-hacer-cuando-un-item-llega-a-su-limite-evitar-reclamos-en-cocina.md
+    doc_id: restore-panel-operativo-fichas-paquete-9-9-3-caso-practico-que-hacer-cuando-un-item-llega-a-su-limite-evitar-reclamos-en-cocina
+    reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/index.md
+    doc_id: restore-panel-operativo-index
+    reviewed_at: '2026-08-27'

@@ -5,3 +5,7 @@ __pycache__/
 .mypy_cache/
 .idea/
 .venv/
+.atl/
+.playwright-mcp/
+.mkdocs-serve.log
+.mkdocs-serve.pid

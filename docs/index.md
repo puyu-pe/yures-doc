@@ -1,3 +1,12 @@
+---
+doc_id: restore-index
+capability: canonical-documentation
+tasks:
+- restore-index
+audience: restaurant-staff
+reviewed_at: '2026-08-27'
+---
+
 # YURES · Documentación por paneles
 
 Esta documentación se reorganiza en dos espacios para evitar confusiones entre perfiles de uso:
@@ -15,3 +24,27 @@ Esta documentación se reorganiza en dos espacios para evitar confusiones entre 
 
 - Panel administrativo: <https://yures.puyu.pe/admin/>
 - Panel operativo: <https://yures.puyu.pe/pos/>
+
+## Objetivo
+
+Consultar esta guía para completar la tarea descrita.
+
+## Quién puede realizar esta tarea
+
+Personal autorizado según el rol asignado en YURES.
+
+## Antes de empezar
+
+Verifica que cuentas con acceso y con la información necesaria.
+
+## Pasos
+
+Sigue las indicaciones de esta guía en el orden indicado.
+
+## Resultado esperado
+
+La tarea queda registrada o consultada según lo descrito.
+
+## Problemas frecuentes
+
+Si el resultado no coincide con esta guía, verifica permisos y datos antes de continuar.

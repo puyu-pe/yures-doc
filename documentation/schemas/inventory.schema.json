@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["version", "coverage_mode", "pages"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {"const": 1},
+    "coverage_mode": {"enum": ["advisory", "strict"]},
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["path", "doc_id", "reviewed_at"],
+        "additionalProperties": false,
+        "properties": {
+          "path": {"type": "string", "pattern": "^docs/.+\\.md$"},
+          "doc_id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "reviewed_at": {"type": "string", "format": "date"}
+        }
+      }
+    }
+  }
+}
