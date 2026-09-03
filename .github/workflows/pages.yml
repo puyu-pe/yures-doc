@@ -46,7 +46,11 @@ jobs:
           from pathlib import Path
 
           page = Path("site/manual.html")
-          page.write_text(page.read_text().replace("../", "manual/"))
+          content = page.read_text()
+          content = content.replace('href="assets/', 'href="manual/assets/')
+          content = content.replace('src="assets/', 'src="manual/assets/')
+          content = content.replace('href="stylesheets/', 'href="manual/stylesheets/')
+          page.write_text(content)
           PY
 
       - name: Configurar SSH
