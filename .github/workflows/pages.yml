@@ -37,7 +37,17 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build site
-        run: mkdocs build --strict --clean
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdocs build --strict --clean
+          cp site/index.html site/manual.html
+          python - <<'PY'
+          from pathlib import Path
+
+          page = Path("site/manual.html")
+          page.write_text(page.read_text().replace("../", "manual/"))
+          PY
 
       - name: Configurar SSH
         shell: bash
@@ -72,7 +82,7 @@ jobs:
 
           rsync -az \
             -e "ssh -p 22 -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$HOME/.ssh/known_hosts" \
-            site/index.html "$DEPLOY_USER@$DEPLOY_HOST:~/httpdocs/app-prod/storage/app/public/manual.html"
+            site/manual.html "$DEPLOY_USER@$DEPLOY_HOST:~/httpdocs/app-prod/storage/app/public/manual.html"
 
       - name: Comprobar publicación HTTPS
         shell: bash

@@ -1,7 +1,7 @@
 site_name: YURES · Guías para tu restaurante
 site_description: Guías para administrar el restaurante y trabajar durante el turno
   con YURES
-site_url: https://yures.puyu.pe/storage/manual.html
+site_url: https://yures.puyu.pe/storage/manual/
 theme:
   name: material
   language: es
