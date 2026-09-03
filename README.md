@@ -50,7 +50,7 @@ mkdocs build --strict --clean
 
 ## Publicación
 
-El manual publicado está en <https://yures.puyu.pe/storage/manual/>. Se sirve
+El manual publicado está en <https://yures.puyu.pe/storage/manual.html>. Se sirve
 mediante el enlace simbólico Laravel `public/storage` y el workflow no modifica
 YURES, Apache ni el vhost.
 

@@ -70,11 +70,15 @@ jobs:
             -e "ssh -p 22 -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$HOME/.ssh/known_hosts" \
             site/ "$DEPLOY_USER@$DEPLOY_HOST:~/httpdocs/app-prod/storage/app/public/manual/"
 
+          rsync -az \
+            -e "ssh -p 22 -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$HOME/.ssh/known_hosts" \
+            site/index.html "$DEPLOY_USER@$DEPLOY_HOST:~/httpdocs/app-prod/storage/app/public/manual.html"
+
       - name: Comprobar publicación HTTPS
         shell: bash
         run: |
           set -euo pipefail
           curl --fail --silent --show-error --retry 3 --retry-all-errors \
-            https://yures.puyu.pe/storage/manual/
+            https://yures.puyu.pe/storage/manual.html
           curl --fail --silent --show-error --retry 3 --retry-all-errors \
             https://yures.puyu.pe/storage/manual/stylesheets/extra.css
