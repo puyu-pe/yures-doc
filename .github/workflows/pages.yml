@@ -40,6 +40,18 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          config = Path("mkdocs.yml")
+          content = config.read_text()
+          content = content.replace(
+              "site_url: http://127.0.0.1:8000/",
+              "site_url: https://yures.puyu.pe/storage/manual/",
+              1,
+          )
+          config.write_text(content)
+          PY
           mkdocs build --strict --clean
           cp site/index.html site/manual.html
           python - <<'PY'

@@ -40,7 +40,9 @@ del equipo que ejecuta MkDocs:
 - `http://<IP_LOCAL>:8000`
 
 El servidor de desarrollo queda expuesto a la red local. No debe publicarse
-directamente en Internet.
+directamente en Internet. La documentación local se sirve desde `/`; el
+workflow aplica la ruta pública `/storage/manual/` únicamente durante el build
+de producción.
 
 ## Build de validación
 
@@ -50,7 +52,7 @@ mkdocs build --strict --clean
 
 ## Publicación
 
-El manual publicado está en <https://yures.puyu.pe/storage/manual.html>. Se sirve
+El manual publicado está en <https://yures.puyu.pe/storage/manual/>. Se sirve
 mediante el enlace simbólico Laravel `public/storage` y el workflow no modifica
 YURES, Apache ni el vhost.
 
