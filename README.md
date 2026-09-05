@@ -47,7 +47,7 @@ de producción.
 ## Build de validación
 
 ```bash
-mkdocs build --strict --clean
+.venv/bin/mkdocs build --strict --clean
 ```
 
 ## Publicación
