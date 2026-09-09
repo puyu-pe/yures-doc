@@ -136,6 +136,7 @@ nav:
     - '2.6 Tipo de documento: Ticket / Boleta electrónica / Factura electrónica (cuándo usar cada uno)': panel-operativo/fichas/paquete-2/2.6-tipo-de-documento-ticket-boleta-electronica-factura-electronica-cuando-usar-cada-uno.md
     - '2.7 Datos de cliente (DNI/RUC, razón social, dirección, correo, celular): mínimo necesario por documento': panel-operativo/fichas/paquete-2/2.7-datos-de-cliente-dni-ruc-razon-social-direccion-correo-celular-minimo-necesario-por-documento.md
     - 2.8 Imprimir / Reimprimir desde búsqueda de venta (casos típicos de cliente): panel-operativo/fichas/paquete-2/2.8-imprimir-reimprimir-desde-busqueda-de-venta-casos-tipicos-de-cliente.md
+    - '2.9 Cerrar caja al finalizar el turno: conteo, reporte y confirmación': panel-operativo/fichas/paquete-2/2.9-cerrar-caja-al-finalizar-turno-conteo-reporte-confirmacion.md
   - Paquete 3 · Dividir cuenta y cobrar por partes:
     - '3.1 Dividir cuenta por ítems: mover de Items pendientes a Items a pagar': panel-operativo/fichas/paquete-3/3.1-dividir-cuenta-por-items-mover-de-items-pendientes-a-items-a-pagar.md
     - '3.2 Pagar una parte y dejar el resto pendiente: cómo continuar sin perder control': panel-operativo/fichas/paquete-3/3.2-pagar-una-parte-y-dejar-el-resto-pendiente-como-continuar-sin-perder-control.md
@@ -151,6 +152,7 @@ nav:
     - '4.8 Movimientos de mesa(s): auditar qué pasó y dejar razón': panel-operativo/fichas/paquete-4/4.8-movimientos-de-mesa-s-auditar-que-paso-y-dejar-razon.md
     - '4.9 Liberar mesa: cuándo sí y cuándo no': panel-operativo/fichas/paquete-4/4.9-liberar-mesa-cuando-si-y-cuando-no.md
     - '4.10 Combo mal armado: cómo corregir antes de enviar a cocina': panel-operativo/fichas/paquete-4/4.10-combo-mal-armado-como-corregir-antes-de-enviar-a-cocina.md
+    - '4.11 No puedo cerrar caja: resolver mesas, pedidos y sesiones pendientes': panel-operativo/fichas/paquete-4/4.11-no-puedo-cerrar-caja-resolver-mesas-pedidos-y-sesiones-pendientes.md
   - Paquete 5 · Buscar venta y corregir desde operativo (acciones rápidas):
     - 5.1 Entrar a Búsqueda venta (barra inferior): panel-operativo/fichas/paquete-5/5.1-entrar-a-busqueda-venta-barra-inferior.md
     - 5.2 Buscar documento por tipo + serie + correlativo y previsualizar: panel-operativo/fichas/paquete-5/5.2-buscar-documento-por-tipo-mas-serie-mas-correlativo-y-previsualizar.md
@@ -168,7 +170,7 @@ nav:
     - '7.1 Entrar como Supervisor: qué habilita y qué no': panel-operativo/fichas/paquete-7/7.1-entrar-como-supervisor-que-habilita-y-que-no.md
     - '7.2 Política operativa recomendada: qué acciones deben ser solo de supervisor (anular/canjear/descuentos/liberar)': panel-operativo/fichas/paquete-7/7.2-politica-operativa-recomendada-que-acciones-deben-ser-solo-de-supervisor-anular-canjear-descuentos-liberar.md
     - '7.3 Resolver "mesa pegada / pedido en dos mesas": auditar y corregir sin perder consumo': panel-operativo/fichas/paquete-7/7.3-resolver-mesa-pegada-pedido-en-dos-mesas-auditar-y-corregir-sin-perder-consumo.md
-    - '7.4 Cierre operativo rápido: checklist de supervisor antes de entregar caja': panel-operativo/fichas/paquete-7/7.4-cierre-operativo-rapido-checklist-de-supervisor-antes-de-entregar-caja.md
+    - '7.4 Supervisor: revisar y ajustar caja después del cierre': panel-operativo/fichas/paquete-7/7.4-cierre-operativo-rapido-checklist-de-supervisor-antes-de-entregar-caja.md
   - Paquete 8 · Impresión y dispositivos (hardware real):
     - '8.1 Impresión de ticket en caja: validaciones mínimas': panel-operativo/fichas/paquete-8/8.1-impresion-de-ticket-en-caja-validaciones-minimas.md
     - 8.2 Impresión de comanda a cocina (impresora asignada): panel-operativo/fichas/paquete-8/8.2-impresion-de-comanda-a-cocina-impresora-asignada.md

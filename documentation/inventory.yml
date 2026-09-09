@@ -286,6 +286,9 @@ pages:
   - path: docs/panel-operativo/fichas/paquete-2/2.8-imprimir-reimprimir-desde-busqueda-de-venta-casos-tipicos-de-cliente.md
     doc_id: restore-panel-operativo-fichas-paquete-2-2-8-imprimir-reimprimir-desde-busqueda-de-venta-casos-tipicos-de-cliente
     reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-2/2.9-cerrar-caja-al-finalizar-turno-conteo-reporte-confirmacion.md
+    doc_id: panel-operativo-fichas-paquete-2-2-9-cerrar-caja-al-finalizar-turno-conteo-reporte-confirmacion
+    reviewed_at: '2026-09-09'
   - path: docs/panel-operativo/fichas/paquete-3/3.1-dividir-cuenta-por-items-mover-de-items-pendientes-a-items-a-pagar.md
     doc_id: restore-panel-operativo-fichas-paquete-3-3-1-dividir-cuenta-por-items-mover-de-items-pendientes-a-items-a-pagar
     reviewed_at: '2026-08-27'
@@ -301,6 +304,9 @@ pages:
   - path: docs/panel-operativo/fichas/paquete-4/4.10-combo-mal-armado-como-corregir-antes-de-enviar-a-cocina.md
     doc_id: restore-panel-operativo-fichas-paquete-4-4-10-combo-mal-armado-como-corregir-antes-de-enviar-a-cocina
     reviewed_at: '2026-08-27'
+  - path: docs/panel-operativo/fichas/paquete-4/4.11-no-puedo-cerrar-caja-resolver-mesas-pedidos-y-sesiones-pendientes.md
+    doc_id: panel-operativo-fichas-paquete-4-4-11-no-puedo-cerrar-caja-resolver-mesas-pedidos-y-sesiones-pendientes
+    reviewed_at: '2026-09-09'
   - path: docs/panel-operativo/fichas/paquete-4/4.2-pedido-no-llega-a-cocina-impresora-causas-de-red-y-cambios-de-ip.md
     doc_id: restore-panel-operativo-fichas-paquete-4-4-2-pedido-no-llega-a-cocina-impresora-causas-de-red-y-cambios-de-ip
     reviewed_at: '2026-08-27'
@@ -369,7 +375,7 @@ pages:
     reviewed_at: '2026-08-27'
   - path: docs/panel-operativo/fichas/paquete-7/7.4-cierre-operativo-rapido-checklist-de-supervisor-antes-de-entregar-caja.md
     doc_id: restore-panel-operativo-fichas-paquete-7-7-4-cierre-operativo-rapido-checklist-de-supervisor-antes-de-entregar-caja
-    reviewed_at: '2026-08-27'
+    reviewed_at: '2026-09-09'
   - path: docs/panel-operativo/fichas/paquete-8/8.1-impresion-de-ticket-en-caja-validaciones-minimas.md
     doc_id: restore-panel-operativo-fichas-paquete-8-8-1-impresion-de-ticket-en-caja-validaciones-minimas
     reviewed_at: '2026-08-27'

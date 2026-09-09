@@ -1,5 +1,9 @@
 # Agent Instructions
 
+## Project Skills
+
+- `.agents/skills/yures-source-backed-ficha/SKILL.md` — Load for YURES ficha work requiring source-backed behavior investigation.
+
 ## Python and MkDocs
 
 Before reporting a Python or MkDocs tool as unavailable, check the repository
